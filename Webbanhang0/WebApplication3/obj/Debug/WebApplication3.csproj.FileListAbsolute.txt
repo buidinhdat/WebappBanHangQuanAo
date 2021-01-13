@@ -1,0 +1,650 @@
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\WebApplication3.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\csc.exe
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\csc.exe.config
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\csc.rsp
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\csi.exe
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\csi.exe.config
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\csi.rsp
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.AppContext.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Console.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.IO.Compression.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.IO.Pipes.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.Claims.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.ValueTuple.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\vbc.exe
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\vbc.exe.config
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\vbc.rsp
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\VBCSCompiler.exe
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Antlr3.Runtime.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Newtonsoft.Json.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Helpers.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Mvc.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Optimization.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Razor.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.WebPages.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.WebPages.Razor.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\WebGrease.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Helpers.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Mvc.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Optimization.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.Razor.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.WebPages.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Web.WebPages.Razor.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Newtonsoft.Json.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Antlr3.Runtime.pdb
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojAssemblyReference.cache
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Users\buidi\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\WebApplication3.dll.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\WebApplication3.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\WebApplication3.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\csc.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\csc.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\csc.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\csi.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\csi.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\csi.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.AppContext.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Console.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.IO.Compression.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.IO.Pipes.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.AccessControl.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.Claims.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.ValueTuple.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\vbc.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\vbc.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\vbc.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\VBCSCompiler.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Antlr3.Runtime.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Newtonsoft.Json.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Helpers.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Mvc.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Optimization.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Razor.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.WebPages.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.WebPages.Razor.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\WebGrease.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Helpers.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Mvc.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Optimization.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.Razor.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.WebPages.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Web.WebPages.Razor.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Newtonsoft.Json.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Antlr3.Runtime.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\obj\Debug\WebApplication3.csprojAssemblyReference.cache
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\obj\Debug\WebApplication3.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang\WebApplication3\obj\Debug\WebApplication3.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\WebApplication3.dll.config
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\WebApplication3.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\WebApplication3.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\csc.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\csc.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\csc.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\csi.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\csi.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\csi.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.AppContext.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Console.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Pipes.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.AccessControl.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Claims.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.ValueTuple.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\vbc.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Helpers.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Mvc.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Optimization.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Razor.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.WebPages.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\WebGrease.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Helpers.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Mvc.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Optimization.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.Razor.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.WebPages.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csprojAssemblyReference.cache
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Bai_tap_ASP.NET\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.pdb
+G:\Webbanhang0\WebApplication3\bin\WebApplication3.dll.config
+G:\Webbanhang0\WebApplication3\bin\WebApplication3.dll
+G:\Webbanhang0\WebApplication3\bin\WebApplication3.pdb
+G:\Webbanhang0\WebApplication3\bin\roslyn\csc.exe
+G:\Webbanhang0\WebApplication3\bin\roslyn\csc.exe.config
+G:\Webbanhang0\WebApplication3\bin\roslyn\csc.rsp
+G:\Webbanhang0\WebApplication3\bin\roslyn\csi.exe
+G:\Webbanhang0\WebApplication3\bin\roslyn\csi.exe.config
+G:\Webbanhang0\WebApplication3\bin\roslyn\csi.rsp
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.AppContext.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Console.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Pipes.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.AccessControl.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Claims.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.ValueTuple.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe
+G:\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe.config
+G:\Webbanhang0\WebApplication3\bin\roslyn\vbc.rsp
+G:\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe
+G:\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+G:\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.dll
+G:\Webbanhang0\WebApplication3\bin\EntityFramework.dll
+G:\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.dll
+G:\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Webbanhang0\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+G:\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.dll
+G:\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.Helpers.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.Mvc.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.Optimization.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.Razor.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.WebPages.dll
+G:\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.dll
+G:\Webbanhang0\WebApplication3\bin\WebGrease.dll
+G:\Webbanhang0\WebApplication3\bin\EntityFramework.xml
+G:\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.Helpers.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.Mvc.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.Optimization.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.Razor.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.WebPages.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+G:\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.xml
+G:\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.xml
+G:\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.pdb
+G:\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+G:\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+G:\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.dll
+G:\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.pdb
+G:\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Core.dll
+G:\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Mvc5.dll
+G:\Webbanhang0\WebApplication3\bin\PagedList.dll
+G:\Webbanhang0\WebApplication3\bin\PagedList.Mvc.dll
+G:\Webbanhang0\WebApplication3\bin\PagedList.xml
+G:\Webbanhang0\WebApplication3\bin\PagedList.Mvc.xml
+G:\usb\Webbanhang0\WebApplication3\bin\WebApplication3.dll.config
+G:\usb\Webbanhang0\WebApplication3\bin\WebApplication3.dll
+G:\usb\Webbanhang0\WebApplication3\bin\WebApplication3.pdb
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\csc.exe
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\csc.exe.config
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\csc.rsp
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\csi.exe
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\csi.exe.config
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\csi.rsp
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.AppContext.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Console.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Pipes.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.AccessControl.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Claims.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Principal.Windows.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.ValueTuple.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe.config
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\vbc.rsp
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe
+G:\usb\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+G:\usb\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.dll
+G:\usb\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Core.dll
+G:\usb\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Mvc5.dll
+G:\usb\Webbanhang0\WebApplication3\bin\EntityFramework.dll
+G:\usb\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.dll
+G:\usb\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\usb\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\usb\Webbanhang0\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+G:\usb\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.dll
+G:\usb\Webbanhang0\WebApplication3\bin\PagedList.dll
+G:\usb\Webbanhang0\WebApplication3\bin\PagedList.Mvc.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Helpers.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Mvc.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Optimization.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Razor.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.WebPages.dll
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.dll
+G:\usb\Webbanhang0\WebApplication3\bin\WebGrease.dll
+G:\usb\Webbanhang0\WebApplication3\bin\EntityFramework.xml
+G:\usb\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.xml
+G:\usb\Webbanhang0\WebApplication3\bin\PagedList.xml
+G:\usb\Webbanhang0\WebApplication3\bin\PagedList.Mvc.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Helpers.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Mvc.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Optimization.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.Razor.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.WebPages.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+G:\usb\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.xml
+G:\usb\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.xml
+G:\usb\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.pdb
+G:\usb\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+G:\usb\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\usb\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\usb\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csprojAssemblyReference.cache
+G:\usb\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+G:\usb\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+G:\usb\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.dll
+G:\usb\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.pdb
+G:\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csprojAssemblyReference.cache
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\WebApplication3.dll.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\WebApplication3.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\WebApplication3.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\csc.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\csc.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\csc.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\csi.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\csi.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\csi.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.AppContext.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Console.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.ValueTuple.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\vbc.rsp
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Core.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Mvc5.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\EntityFramework.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\PagedList.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\PagedList.Mvc.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Helpers.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Mvc.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Optimization.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Razor.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.WebPages.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\WebGrease.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\EntityFramework.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\PagedList.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\PagedList.Mvc.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Helpers.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Mvc.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Optimization.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.Razor.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.WebPages.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Globalization.Calendars.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Net.Http.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Net.Sockets.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\ICSharpCode.SharpZipLib.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\NPOI.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\NPOI.OOXML.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\NPOI.OpenXml4Net.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\NPOI.OpenXmlFormats.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\ICSharpCode.SharpZipLib.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\ICSharpCode.SharpZipLib.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.pdb
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\itextsharp.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\itextsharp.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\wkhtmltopdf.exe
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.OpenPublishing.Build.HtmlConverters.HtmlToPdf.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Select.HtmlToPdf.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Spire.License.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Spire.Pdf.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\TuesPechkin.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Microsoft.mshtml.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Select.HtmlToPdf.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Spire.License.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Spire.Pdf.xml
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\Select.Html.dep
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\GemBox.Spreadsheet.dll
+D:\ĐỒ ÁN TỐT NGIỆP\Webbanhang0\WebApplication3\bin\GemBox.Spreadsheet.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\wkhtmltopdf.exe
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\WebApplication3.dll.config
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\WebApplication3.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\WebApplication3.pdb
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\csc.exe
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\csc.exe.config
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\csc.rsp
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\csi.exe
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\csi.exe.config
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\csi.rsp
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.AppContext.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Console.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Globalization.Calendars.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Net.Http.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Net.Sockets.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.ValueTuple.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\vbc.exe.config
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\vbc.rsp
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Core.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\DataTables.AspNet.Mvc5.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\EntityFramework.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\GemBox.Spreadsheet.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\ICSharpCode.SharpZipLib.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\itextsharp.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.OpenPublishing.Build.HtmlConverters.HtmlToPdf.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\NPOI.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\NPOI.OOXML.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\NPOI.OpenXml4Net.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\NPOI.OpenXmlFormats.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\PagedList.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\PagedList.Mvc.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Select.HtmlToPdf.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Spire.License.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Spire.Pdf.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Helpers.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Mvc.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Optimization.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Razor.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.WebPages.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\TuesPechkin.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\WebGrease.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.mshtml.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\EntityFramework.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\EntityFramework.SqlServer.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\GemBox.Spreadsheet.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\ICSharpCode.SharpZipLib.pdb
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\ICSharpCode.SharpZipLib.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\itextsharp.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.pdb
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Newtonsoft.Json.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\PagedList.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\PagedList.Mvc.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Select.HtmlToPdf.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Spire.License.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Spire.Pdf.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Helpers.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Mvc.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Razor.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.WebPages.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.WebPages.Razor.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\System.Web.Optimization.xml
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Antlr3.Runtime.pdb
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\bin\Select.Html.dep
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CoreCompileInputs.cache
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.dll
+E:\Đồ án tốt nghiệp\BuiDinhDat_BaoCaoDoAnTotNghiep_KHMT1-K10\Webbanhang0\WebApplication3\obj\Debug\WebApplication3.pdb

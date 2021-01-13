@@ -1,0 +1,81 @@
+﻿@model WebApplication3.Areas.Areas.Models.sanpham
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Areas/Views/Shared/_Adminlayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Bạn có muốn xóa?</h3>
+<div>
+    <h4>Xóa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nhasanxuat.tennhasanxuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nhasanxuat.tennhasanxuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nhomhang.tennhomhang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nhomhang.tennhomhang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tensanpham)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tensanpham)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dongia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dongia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.anhsanpham)
+        </dt>
+
+        <dd>
+            <img style="width:270px; height:300px;" class="img-thumbnail" src="~/Content/anh/@Html.DisplayFor(model => model.anhsanpham)" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chitiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chitiet)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Trở về", "Index")
+        </div>
+    }
+</div>

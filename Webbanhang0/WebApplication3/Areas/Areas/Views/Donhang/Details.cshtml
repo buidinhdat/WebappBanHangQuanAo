@@ -1,0 +1,83 @@
+﻿@model WebApplication3.Areas.Areas.Models.donhang
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Areas/Views/Shared/_Adminlayout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.thanhtoan.tenphuongthucthanhtoan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.thanhtoan.tenphuongthucthanhtoan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tenkhachhang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tenkhachhang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngaydathang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngaydathang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.diachi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diachi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tinhtrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tinhtrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ghichu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ghichu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tongtienthanhtoan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tongtienthanhtoan)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.madonhang }) |
+    @Html.ActionLink("Trở về", "Index")
+</p>

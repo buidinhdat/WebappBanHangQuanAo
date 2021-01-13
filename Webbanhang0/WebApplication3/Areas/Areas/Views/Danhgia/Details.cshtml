@@ -1,0 +1,43 @@
+﻿@model WebApplication3.Areas.Areas.Models.danhgia
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Areas/Views/Shared/_Adminlayout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.masanpham)
+        </dd>
+
+        <dt>
+            Mã khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.makhachhang)
+        </dd>
+
+        <dt>
+            Nội dung
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noidung)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.madanhgia }) |
+    @Html.ActionLink("Trở về", "Index")
+</p>

@@ -1,0 +1,75 @@
+﻿@model WebApplication3.Areas.Areas.Models.sanpham
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Areas/Views/Shared/_Adminlayout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nhasanxuat.tennhasanxuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nhasanxuat.tennhasanxuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nhomhang.tennhomhang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nhomhang.tennhomhang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tensanpham)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tensanpham)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dongia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dongia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.anhsanpham)
+        </dt>
+
+        <dd>
+            <img  style="width:270px; height:300px;" class="img-thumbnail" src="~/Content/anh/@Html.DisplayFor(model => model.anhsanpham)"/>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chitiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chitiet)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.masanpham }) |
+    @Html.ActionLink("Trở về", "Index")
+</p>

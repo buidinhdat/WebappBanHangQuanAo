@@ -1,0 +1,104 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<WebApplication3.Areas.Areas.Models.nhasanxuat>
+@{
+    ViewBag.Title = "Nhà sản xuất";
+    Layout = "~/Areas/Areas/Views/Shared/_Adminlayout.cshtml";
+}
+<style>
+    table {
+        padding: 0;
+        border: none;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    tr:hover {
+        color: red;
+    }
+
+    #suaxoa:hover {
+        background-color: aqua;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: 1px solid #eaeaea;
+        background: #666;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+        button:hover {
+            background: #ff3366;
+            border: 1px solid #ff3366;
+        }
+
+    .themmoi {
+        color: white;
+    }
+
+    #myInput {
+        width: 400px;
+        margin-left: 400px;
+    }
+</style>
+
+<center><h2>Danh sách nhà sản xuất</h2></center>
+<div class="row">
+    <div class="search-box">
+        <input class="form-control" placeholder="Tìm kiếm" type="text" id="myInput" onkeyup="myFunction()">
+
+    </div>
+</div>
+<br />
+
+
+@using (Html.BeginForm("Create", "Nhasanxuat", FormMethod.Get))
+{
+
+    <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-plus"></span>Thêm mới</button>
+
+
+}
+<table class="table table-striped table-bordered table-hover myTable" id="example">
+    <thead>
+        <tr>
+            <th>
+                Tên nhà sản xuất
+            </th>
+            <th>
+                Địa chỉ nhà sản xuất
+            </th>
+            <th>Sửa</th>
+            <th>Xóa</th>
+        </tr>
+    </thead>
+    <tbody id="myTable">
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tennhasanxuat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.diachinhasanxuat)
+                </td>
+                <td>
+
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.manhasanxuat })
+                </td>
+                <td>
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.manhasanxuat })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page }))

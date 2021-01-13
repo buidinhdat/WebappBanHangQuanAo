@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Doimatkhau";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+}
+
+<style>
+    .input-text {
+        width: 100%;
+    }
+</style>
+<h2>Đổi mật khẩu</h2>
+<script>
+    function xuly() {
+        var matkhau = document.getElementById("txtmatkhaucu").value;
+        var matkhaumoi = document.getElementById("txtmatkhaumoi").value;
+        var nhaplaimatkhaumoi = document.getElementById("txtnhaplaimatkhaumoi").value;
+        if (matkhau == "") {
+            alert("Ô mật khẩu không được để trống");
+        }
+        else {
+            if (matkhaumoi == "") {
+                alert("Bạn chưa điền mật khẩu mới");
+            }
+            else if (nhaplaimatkhaumoi != matkhaumoi) {
+                alert("Mật khẩu mới không khớp");
+            }
+            else {
+                return true;
+            }
+        }
+    }
+
+</script>
+
+@using (Html.BeginForm("Doimatkhau", "Doimatkhau", FormMethod.Post, new { @class = "dangky", @id = "form-validate" }))
+{
+    <div class="fieldset">
+            <div class="field">
+                <label for="password" class="required"><em style="color:red;">*</em> Mật khẩu cũ</label>
+                <div class="input-box">
+                    @Html.Password("matkhau", "", new { @class = "input-text required-entry validate-password", @title = "Password", @id="txtmatkhaucu" })
+                </div>
+            </div>
+            <div class="field">
+                <label for="password" class="required"><em style="color:red;">*</em> Mật khẩu mới</label>
+                <div class="input-box">
+                    @Html.Password("matkhaumoi", "", new { @class = "input-text required-entry validate-password", @title = "Password", @id="txtmatkhaumoi" })
+
+                </div>
+            </div>
+       
+            <div class="field">
+                <label for="confirmation" class="required"><em style="color:red;">*</em> Nhập lại mật khẩu</label>
+                <div class="input-box">
+                    @Html.Password("nhaplaimatkhaumoi", "", new { @class = "input-text required-entry validate-password", @title = "Password", @id="txtnhaplaimatkhaumoi" })
+                </div>
+            </div>
+            
+       
+        <div class="buttons-set">
+            <p class="back-link">
+                <a href="@Url.Action("Taikhoan","Home")" class="back-link"><small>&laquo; </small>Trở lại</a>
+            </p>
+            <button type="submit" title="Submit" class="button" onclick="xuly()">
+                <span><span>Cập nhật</span></span>
+            </button>
+            <p class="required">* Phần bắt buộc</p>
+            <p class="required"><h5>@ViewBag.mess</h5></p>
+        </div>
+
+    </div>
+    
+    
+
+
+}

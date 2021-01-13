@@ -1,0 +1,60 @@
+﻿
+@{
+    Layout = null;
+}
+
+@using WebApplication3.Areas.Areas.Models;
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Đăng nhập với Admin</title>
+    <!-- Bootstrap CSS -->
+    <link href="~/cssadmin/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="~/cssadmin/css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="~/cssadmin/css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/cssadmin/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="~/cssadmin/css/style.css" rel="stylesheet">
+    <link href="~/cssadmin/css/style-responsive.css" rel="stylesheet" />
+    <LINK REL="SHORTCUT ICON" HREF="~/cssadmin/img/icons/admin.ico" />
+</head>
+
+<body class="login-img3-body">
+
+    <div class="container">
+
+
+       @RenderBody()
+
+
+        <div class="text-right">
+            <div class="credits">
+
+                Designed by <a href="https://www.facebook.com/buidinhdat.bui.31">Bùi Đình Đạt</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function xuly() {
+            var txtten = document.getElementById("txttendangnhap").value;
+            var txtpass = document.getElementById("txtmatkhau").value;
+            if (txtten == "") {
+                alert("Tên đăng nhập không được để trống !");
+            }
+            else {
+                if (txtpass == "") {
+                    alert("Mật khẩu không được để trống !")
+                }
+                else
+                    return true;
+            }
+
+        }
+    </script>
+
+</body>
+</html>

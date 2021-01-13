@@ -1,0 +1,237 @@
+﻿
+@{
+    ViewBag.Title = "Dangky";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+}
+
+<script>
+ 
+    function xulyhoten() {
+        if (document.getElementById("txthoten").value != "") {
+            document.getElementById("valihoten").innerHTML = "";
+        }
+        else {
+            document.getElementById("valihoten").innerHTML = "Họ tên không được để trống";
+        }
+    }
+    function xulydiachi() {
+        if (document.getElementById("txtdiachi").value != "") {
+            document.getElementById("validiachi").innerHTML = "";
+        }
+        else {
+            document.getElementById("validiachi").innerHTML = "Địa chỉ không được để trống";
+        }
+    }
+    function xulyemail() {
+        if (document.getElementById("txtemail").value != "") {
+            document.getElementById("valiemail").innerHTML = "";
+        }
+        else {
+            document.getElementById("valiemail").innerHTML = "Email không được để trống";
+        }
+    }
+    function xulysodienthoai() {
+        if (document.getElementById("txtsodienthoai").value != "") {
+            document.getElementById("valisodienthoai").innerHTML = "";
+        }
+        else {
+            document.getElementById("valisodienthoai").innerHTML = "Họ tên không được để trống";
+        }
+    }
+    function xulytendangnhap() {
+        if (document.getElementById("txttendangnhap").value != "") {
+            document.getElementById("valitendangnhap").innerHTML = "";
+        }
+        else {
+            document.getElementById("valitendangnhap").innerHTML = "Tên đăng nhập không được để trống";
+        }
+
+    }
+    function xulymatkhau() {
+        if (document.getElementById("txtmatkhau").value != "") {
+            document.getElementById("valimatkhau").innerHTML = "";
+        }
+        else {
+            document.getElementById("valimatkhau").innerHTML = "Mật khẩu không được để trống";
+        }
+    }
+    function xulynhaplaimatkhau() {
+        if (document.getElementById("txtnhaplaimatkhau").value == document.getElementById("txtmatkhau").value) {
+            document.getElementById("valinhaplaimatkhau").innerHTML = "";
+        }
+        else {
+            document.getElementById("valinhaplaimatkhau").innerHTML = "Mật khẩu không khớp";
+        }
+    }
+</script>
+
+
+<div @*class="wrapper-breadcrums"*@>
+    <div @*class="container"*@>
+        <div class="row">
+            <div class="col-sm-24">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li class="home">
+                            <a href="#" title="Go to Home Page"><span>Trang chủ</span></a> <span class="separator">/ </span>
+                        </li>
+                        <li class="cms_page">
+                            <strong>Đăng ký</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.wrapper-breadcrums -->
+
+<div class="em-wrapper-main">
+    <div id="dangky">
+        <div class="em-inner-main">
+            <div class="em-wrapper-area02"></div>
+            <div class="em-main-container em-col1-layout">
+                <div class="row">
+                    <div class="em-col-main col-sm-24">
+                        <div class="account-create">
+                            <div class="page-title">
+                                <h1>Đăng ký</h1>
+                            </div>
+                            @using (Html.BeginForm("Xulydangky", "Home", FormMethod.Post, new { @class = "dangky", @id = "form-validate"}))
+                            {
+                                <div class="fieldset">
+                                    <input type="hidden" name="success_url" value="" />
+                                    <input type="hidden" name="error_url" value="" />
+                                    <h2 class="legend">Thông tin khách hàng</h2>
+                                    <ul class="form-list">
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="hoten" class="required"><em>*</em>Họ tên</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("hoten","",new { @class = "input-text required-entry", @id = "txthoten", @onkeydown = "xulyhoten()" })
+                                                    </div>
+                                                    <div id="valihoten" style="float:right; color: red;"> Họ tên không được để trống</div>
+
+                                                </div>
+                                                </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="diachi" class="required"><em>*</em>Địa chỉ</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("diachi", "", new { @class = "input-text required-entry",@id="txtdiachi", @onkeydown = "xulydiachi()" })
+
+                                                    </div>
+                                                    <div id="validiachi" style="float:right;color: red;"> Địa chỉ không được để trống</div>
+
+
+                                                </div>
+                                                </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="email" class="required"><em>*</em>Email</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("email", "", new { @class = "input-text required-entry", @id="txtemail", @onkeydown = "xulyemail()" })
+
+                                                    </div>
+                                                    <div id="valiemail" style="float:right;color: red;"> Email không được để trống</div>
+
+                                                </div>
+                                                </div>
+                                        </li>
+
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="sodienthoai" class="required"><em>*</em>Số điện thoại</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("sodienthoai", "", new { @class = "input-text required-entry", @id="txtsodienthoai", @onkeydown = "xulysodienthoai()" })
+
+                                                    </div>
+                                                    <div id="valisodienthoai" style="float:right;color: red;"> Số điện thoại không được để trống</div>
+
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="tendangnhap" class="required"><em>*</em>Tên đăng nhập</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("tendangnhap", "", new { @class = "input-text required-entry" , @id="txttendangnhap", @onkeydown = "xulytendangnhap()" })
+
+                                                    </div>
+                                                    <div id="valitendangnhap" style="float:right;color: red;">Mật khẩu không được để trống</div>
+
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="field">
+                                                <label for="matkhau" class="required"><em>*</em>Mật khẩu</label>
+                                                <div class="input-box">
+                                                    @Html.Password("matkhau", "", new { @class = "input-text required-entry validate-password" , @id="txtmatkhau", @onkeydown = "xulymatkhau()" })
+
+                                                </div>
+                                                <div id="valimatkhau" style="float:right; color:red;">Mật khẩu không được để trống</div>
+
+                                            </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="field">
+                                                <label for="nhaplaimatkhau" class="required"><em>*</em>Nhập lại mật khẩu</label>
+                                                <div class="input-box">
+                                                    @Html.Password("nhaplaimatkhau", "", new { @class = "input-text required-entry validate-password" , @id="txtnhaplaimatkhau", @onkeydown = "xulynhaplaimatkhau()" })
+                                                </div>
+                                                <div id="valinhaplaimatkhau" style="float:right;color:red;">Mật khẩu không khớp</div>
+
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="fieldset">
+
+
+                                    <div id="window-overlay" class="window-overlay" style="display:none;"></div>
+                                    <div id="remember-me-popup" class="remember-me-popup" style="display:none;">
+                                        <div class="remember-me-popup-head">
+                                            <h3>What's this?</h3> <a href="#" class="remember-me-popup-close" title="Close">Close</a>
+                                        </div>
+                                        <div class="remember-me-popup-body">
+                                            <p>Checking &quot;Remember Me&quot; will let you access your shopping cart on this computer when you are logged out</p>
+                                            <div class="remember-me-popup-close-button a-right">
+                                                <a href="#" class="remember-me-popup-close button" title="Close"><span>Close</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buttons-set">
+                                        <p class="back-link">
+                                            <a href="@Url.Action("Index", "Home")" class="back-link"><small>&laquo; </small>Trở lại</a>
+                                        </p>
+                                        
+                                        <button type="submit" title="Đăng ký" class="button" id="btndangky">
+                                            <span><span>Đăng ký</span></span>
+                                        </button>
+                                        <p class="required">* Phần bắt buộc</p>
+                                        <p  class="required"> <h3>@ViewBag.mess</h3></p>
+                                    </div>
+                                </div>
+                            }
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.em-wrapper-main -->
+<script>
+    var btn = document.getElementById("btndangky");
+    btn.addEventListener("click", xuly);
+</script>

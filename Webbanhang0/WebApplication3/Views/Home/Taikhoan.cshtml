@@ -1,0 +1,165 @@
+﻿
+@{
+    ViewBag.Title = "Taikhoan";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+
+}
+@{
+    WebApplication3.Models.khachhang user = new WebApplication3.Models.khachhang();
+    user = (WebApplication3.Models.khachhang)Session["nguoidung"];
+}
+<h2>Thông tin tài khoản</h2>
+<style>
+    .tb {
+        
+        font-size:larger;
+       
+    }
+    .doipass{
+        font-size:large;
+        color:darkcyan;
+    }
+
+    .cot1 {
+        width: 50%;
+    }
+</style>
+<table class="tb table table-bordered table-hover table-striped">
+    <tr>
+        <td class="cot1">Họ và tên</td>
+        <td>@user.hoten</td>
+    </tr>
+    <tr>
+        <td class="cot1">Địa chỉ</td>
+        <td>@user.diachi</td>
+    </tr>
+    <tr>
+        <td class="cot1">Email</td>
+        <td>@user.email</td>
+    </tr>
+    <tr>
+        <td class="cot1">Số điện thoại</td>
+        <td>@user.sodienthoai</td>
+    </tr>
+    <tr>
+        <td class="cot1">Tên đăng nhập</td>
+        <td>@user.tendangnhap</td>
+    </tr>
+</table>
+<h2>Cập nhật thông tin tài khoản</h2>
+<div class="em-wrapper-main">
+    <div id="dangky">
+        <div class="em-inner-main">
+            <div class="em-wrapper-area02"></div>
+            <div class="em-main-container em-col1-layout">
+                <div class="row">
+                    <div class="em-col-main col-sm-24">
+                        <div class="account-create">
+                            <div class="page-title">
+
+                            </div>
+                            @using ((Html.BeginForm("Xulycapnhattaikhoan", "Home", FormMethod.Post, new { @class = "dangky", @id = "form-validate" })))
+                            {
+                                <div class="fieldset">
+                                    <input type="hidden" name="success_url" value="" />
+                                    <input type="hidden" name="error_url" value="" />
+
+                                    <ul class="form-list">
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="firstname" class="required"><em>*</em>Họ tên</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("hoten", @user.hoten, new { @class = "input-text required-entry", @title = "hoten"})
+                                                        @*<input type="text" id="firstname" name="firstname" value="@user.hoten" title="First Name" maxlength="255" class="input-text required-entry" />*@
+                                                    </div>
+
+                                                </div>
+                                                </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="firstname" class="required"><em>*</em>Địa chỉ</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("diachi", @user.diachi, new { @class = "input-text required-entry", @title = "hoten"})
+                                                        @*<input type="text" id="firstname" name="firstname" value="@user.diachi" title="First Name" maxlength="255" class="input-text required-entry" />*@
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="firstname" class="required"><em>*</em>Email</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("email", @user.email, new { @class = "input-text required-entry", @title = "email" })
+                                                        @*<input type="text" id="email" name="email" value="@user.email" title="Email" maxlength="255" class="input-text required-entry" />*@
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                        </li>
+
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="firstname" class="required"><em>*</em>Số điện thoại</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("sodienthoai", @user.sodienthoai, new { @class = "input-text required-entry", @title = "sodienthoai" })
+                                                        @*<input type="text" id="sodienthoai" name="sodienthoai" value="@user.sodienthoai" title="First Name" maxlength="255" class="input-text required-entry" />*@
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fields">
+                                            <div class="customer-name-middlename">
+                                                <div class="field name-firstname">
+                                                    <label for="firstname" class="required"><em>*</em>Tên đăng nhập</label>
+                                                    <div class="input-box">
+                                                        @Html.TextBox("tendangnhap", @user.tendangnhap, new { @class = "input-text required-entry", @title = "tendangnhap" })
+                                                        @*<input type="text" id="tendangnhap" name="tendangnhap" value="@user.tendangnhap" title="tendangnhap" maxlength="255" class="input-text required-entry" />*@
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="fieldset">
+
+
+                                    <div id="window-overlay" class="window-overlay" style="display:none;"></div>
+                                    <div id="remember-me-popup" class="remember-me-popup" style="display:none;">
+                                        <div class="remember-me-popup-head">
+                                            <h3>What's this?</h3> <a href="#" class="remember-me-popup-close" title="Close">Close</a>
+                                        </div>
+                                        <div class="remember-me-popup-body">
+                                            <p>Checking &quot;Remember Me&quot; will let you access your shopping cart on this computer when you are logged out</p>
+                                            <div class="remember-me-popup-close-button a-right">
+                                                <a href="#" class="remember-me-popup-close button" title="Close"><span>Close</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buttons-set">
+                                        <p class="back-link">
+                                            <a href="@Url.Action("Index","Sanphamuser")" class="back-link"><small>&laquo; </small>Trở lại</a>
+                                        </p>
+                                        <button type="submit" title="Submit" class="button">
+                                            <span><span>Cập nhật</span></span>
+                                        </button>
+                                        <p class="required">* Phần bắt buộc</p>
+                                        <p>  @Session["thongbao"]</p>
+                                    </div>
+                                </div>
+                            }
+                            @*<form method="post" id="form-validate" class="dangky"></form>*@
+                            <a href="@Url.Action("Doimatkhau","Doimatkhau")" class="doipass">Đổi mật khẩu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.em-wrapper-main -->

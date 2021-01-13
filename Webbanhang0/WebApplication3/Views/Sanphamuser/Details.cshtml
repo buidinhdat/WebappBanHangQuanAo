@@ -1,0 +1,294 @@
+﻿@model WebApplication3.Models.sanpham
+    @using WebApplication3.Models
+
+@{
+    int id=int.Parse(Convert.ToString(Html.DisplayFor(model => model.masanpham)));
+    string tenkhachhang;
+    string bienhienthi;
+    if (Session["nguoidung"]==null)
+    {
+        tenkhachhang = "";
+        bienhienthi = "none";
+    }
+    else
+    {
+        khachhang kh = (khachhang)Session["nguoidung"];
+        tenkhachhang = kh.hoten;
+        bienhienthi = "inline";
+    }
+
+ }
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+}
+
+<style>
+    .scroll {
+        overflow-y: scroll;
+        height:50px;
+
+        
+    }
+    .textarea {
+        width: 90%;
+        height: 100px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+</style>
+<div class="em-wrapper-main">
+    <div class="container-fluid container-main">
+        <div class="em-inner-main">
+            <div class="em-wrapper-area02"></div>
+            <div class="em-wrapper-area03"></div>
+            <div class="em-wrapper-area04"></div>
+            <div class="em-main-container em-col1-layout">
+                <div class="row">
+                    <div class="em-col-main col-sm-22 col-sm-offset-1">
+                        <div id="messages_product_view"></div>
+                        <div class="product-view">
+                            <div class="product-essential">
+                                @*<form method="post" id="product_addtocart_form">*@
+                                @using (Html.BeginForm("Themvaogiohang/" + Html.DisplayFor(model => model.masanpham), "Sanphamuser", FormMethod.Post, new { @id = "product_addtocart_form" }))
+                                {
+
+                                    <input name="form_key" type="hidden" value="N4DL2crX27DuHSDk">
+                                    <div class="product-view-detail">
+                                        <div class="em-product-view row">
+                                            <div class="em-product-view-primary em-product-img-box col-sm-16 first">
+                                                <!-- <div id="em-product-shop-pos-top"></div>-->
+
+                                                <img class="img-thumbnail" src="~/Content/anh/@Html.DisplayFor(model => model.anhsanpham)" style="width:450px; height:500px;">
+                                                <!---->
+                                            </div><!-- /.em-product-view-primary -->
+
+                                            <div class="em-product-view-secondary em-product-shop col-sm-8">
+                                                <div class="product-shop  fix_menu" style="">
+                                                    <div id="em-product-info-basic">
+                                                        <div class="product-name">
+                                                            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Html.DisplayFor(model => model.tensanpham)</font></font></h1>
+                                                        </div>
+                                                        <div class="em-review-email">
+                                                            <p class="no-rating">
+                                                                <a href="#" class="r-lnk link_review_form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hay la ngươi đâu tiên xem xet sản phẩm nay</font></font></a>
+                                                            </p>
+                                                            <p class="email-friend">
+                                                                <a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Email cho bạn bè</font></font></a>
+                                                            </p>
+                                                        </div>
+                                                        <div class="em-sku-availability">
+                                                            <p class="sku"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mã sản phẩm: @Html.DisplayFor(model => model.masanpham)</font></font></p>
+                                                            <p class="availability in-stock">
+                                                                <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sẵn có: </font></font><span class="value"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> @Html.DisplayFor(model => model.soluong)</font></font></span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="short-description">
+                                                            <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tổng quan nhanh</font></font></h2>
+                                                            <div class="std"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Html.DisplayFor(model => model.chitiet)</font></font></div>
+                                                        </div>
+                                                        <div class="em-addthis-plug">
+                                                            <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chia sẻ</font></font></span>
+                                                            <a href="#" target="_blank">
+                                                                <img alt="Facebook" src="~/Content/assetshome/images/social/facebook.png">
+                                                            </a>
+                                                            <a href="#" target="_blank">
+                                                                <img alt="Twitter" src="~/Content/assetshome/images/social/twitter.png">
+                                                            </a>
+                                                            <a href="#" target="_blank">
+                                                                <img alt="Google+" src="~/Content/assetshome/images/social/google_plusone_share.png">
+                                                            </a>
+                                                            <a href="#" target="_blank">
+                                                                <img alt="Pinterest" src="~/Content/assetshome/images/social/pinterest.png">
+                                                            </a>
+                                                            <a href="#" target="_blank">
+                                                                <img alt="LinkedIn" src="~/Content/assetshome/images/social/linkedin.png">
+                                                            </a>
+                                                            <a href="#" target="_blank">
+                                                                <img alt="E-mail" src="~/Content/assetshome/images/social/email.png">
+                                                            </a>
+                                                        </div><!-- /.em-addthis-plug -->
+                                                        <div>
+
+                                                            <p class="availability in-stock">
+                                                                <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sẵn có: </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trong kho</font></font></span>
+                                                            </p>
+
+                                                            <div class="price-box">
+                                                                <span class="regular-price" id="product-price-206"> <span class="price" content="750"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Html.DisplayFor(model => model.dongia) <p style="color:red;">VND</p></font></font></span> </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="add-to-box">
+
+                                                            <div class="add-to-cart">
+                                                                <label for="qty"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Số lượng:</font></font></label>
+                                                                <div class="qty_cart">
+                                                                    <div class="qty-ctl">
+                                                                        <button title="giảm bớt" onclick="changeQty(0); return false;" class="decrease"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">giảm bớt</font></font></button>
+                                                                    </div>
+                                                                    @*@Html.TextBox("qty", "1", new { @class = "input-text qty", @id = "qty" })*@
+                                                                    <input type="text" class="input-text qty" id="qty" name="qty" value="1" />
+                                                                    <div class="qty-ctl">
+                                                                        <button title="tăng" onclick="changeQty(1); return false;" class="increase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tăng</font></font></button>
+                                                                    </div>
+                                                                </div>
+                                                                <ul class="add-to-links">
+                                                                    <li>
+                                                                        <a title="Thêm vào danh sách mong muốn" href="#" class="link-wishlist"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thêm vào danh sách mong muốn</font></font></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <span class="separator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <a href="#" title="thêm vào để so sánh" class="link-compare"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">thêm vào để so sánh</font></font></a>
+                                                                    </li>
+                                                                </ul>
+                                                            <br /> <br/><br /><br />
+                                                                <div class="button_addto">
+                                                                    <button type="button" title="Mua ngay" id="em-buy-now" class="button btn-em-buy-now">
+                                                                        <span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mua ngay</font></font></span></span>
+                                                                    </button>
+
+                                                                    <button type="submit" title="Thêm vào giỏ hàng" id="product-addtocart-button" class="button btn-cart btn-cart-detail">
+                                                                        <span><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thêm</font></font></span></span>
+                                                                    </button>
+
+                                                                </div>
+                                                            </div><!-- /.add-to-cart -->
+
+                                                        </div><!-- /.add-to-box -->
+                                                    </div><!-- /.em-product-info-basic -->
+                                                </div>
+                                            </div><!-- /.em-product-view-secondary -->
+
+
+                                            <div class="clearer"></div>
+                                        </div><!-- /.product-view-detail -->
+                                    </div>
+
+                                }
+                                @*</form>*@
+                                <br />
+                                <div style="background-color:paleturquoise;"><h1>Đánh giá sản phẩm</h1></div>
+                                <div style="width:500px; padding-left:30px; overflow:hidden; background-color:ghostwhite; padding-bottom:10px;">
+
+                                    <div style="width:200px;">
+                                        @{
+                                            foreach (danhgia i in (List<danhgia>)ViewData["lidanhgia"])
+                                            {
+                                                foreach (khachhang j in (List<khachhang>)ViewData["likhachhang"])
+                                                {
+                                                    if (i.makhachhang == j.makhachhang && i.masanpham == ViewBag.masp)
+                                                    {
+                                                        <div>
+                                                            <div><i class="fa fa-user" style="float:left;"></i><p><h4 class="display-3">@j.hoten</h4> </p></div>
+                                                        </div>
+                                                        <div>
+                                                            <div style="width:440px; border-radius: 3px; border: 1px solid #d5d5d5; color: #333333; font-family: inherit; font-size: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; margin: 0px; padding: 1em; vertical-align: baseline;">
+                                                                @i.noidung
+                                                            </div>
+
+
+                                                        </div>
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                    </div>
+
+                                    <!--Phần đánh giá của tài khoản đã đăng nhập-->
+                                    <div style="width:200px; display:@bienhienthi">
+                                        <div> <div style="color:blue;"><i class="fa fa-user" style="float:left;"></i><p><h4 class="display-4">@tenkhachhang</h4></p></div></div>
+                                        <div>
+                                            <div>
+                                                @using (Html.BeginForm("danhgiasanpham/" + id, "Sanphamuser", FormMethod.Post))
+                                                {
+                                                    @Html.TextArea("noidung", "", new { @class = "textarea" })
+                                                    <br />
+                                                    <br />
+                                                    <input type="submit" value="Bình luận" class="btn btn-success" />
+                                                }
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div><!-- /.product-essential -->
+                                <div class="row">
+                                    <div class="em-product-view-primary col-sm-16 first"></div>
+                                </div>
+
+                            </div><!-- /.product-view -->
+                    </div>
+                </div>
+            </div><!-- /.em-main-container -->
+        </div>
+    </div>
+</div>
+<!-- Phần đánh giá-->
+
+</div>
+
+
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Content/assetshome/js/em_product_view.js"></script>
+    <!-- Lightbox Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/lightbox.min.js"></script>
+    <script type="text/javascript">
+        jQuery('.cloud-zoom-gallery').click(function () {
+            jQuery('#zoom-btn').attr('href', this.href);
+        });
+        function doSliderMoreview() {
+            var owl = $("ul.em-moreviews-slider");
+            if (owl.length) {
+                owl.owlCarousel({
+                    // Navigation
+                    navigation: true,
+                    navigationText: ["Previous", "Next"],
+                    pagination: false,
+                    paginationNumbers: false,
+                    // Responsive
+                    responsive: true,
+                    items: 7,
+                    /*items above 1200px browser width*/
+                    itemsDesktop: [1200, 4],
+                    /*//items between 1199px and 981px*/
+                    itemsDesktopSmall: [992, 7],
+                    itemsTablet: [768, 3],
+                    itemsMobile: [480, 2],
+                    // CSS Styles
+                    baseClass: "owl-carousel",
+                    theme: "owl-theme",
+                    transitionStyle: false,
+                    addClassActive: true,
+                });
+            }
+        }
+
+        function changeQty(increase) {
+            var qty = parseInt($('#qty').val());
+            if (!isNaN(qty)) {
+                console.log(qty)
+                qty = increase ? qty + 1 : (qty > 1 ? qty - 1 : 1);
+                $('#qty').val(qty);
+            }
+        }
+        (function ($) {
+            $(window).load(function () {
+                if (!isPhone) {
+                    $('.cloud-zoom, .cloud-zoom-gallery').CloudZoom();
+                }
+                doSliderMoreview();
+            });
+        })(jQuery);
+
+    </script>
+}
+
+
+

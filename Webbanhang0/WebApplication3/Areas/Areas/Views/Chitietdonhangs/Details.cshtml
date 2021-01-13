@@ -1,0 +1,59 @@
+﻿@model WebApplication3.Areas.Areas.Models.chitietdonhang
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Areas/Views/Shared/_Adminlayout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.donhang.tenkhachhang)
+        </dd>
+
+        <dt>
+            Tên sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sanpham.tensanpham)
+        </dd>
+
+        <dt>
+            Số lượng mua
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluongmua)
+        </dd>
+
+        <dt>
+            Đơn giá
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dongia)
+        </dd>
+
+        <dt>
+           Tổn tiền
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tongtien)
+        </dd>
+
+        
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.machitietdonhang }) |
+    @Html.ActionLink("Trở về", "Index")
+</p>

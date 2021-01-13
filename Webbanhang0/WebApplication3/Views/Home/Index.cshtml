@@ -1,0 +1,159 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+}
+@*@model sanpham
+    @using WebApplication3.Models;*@
+
+@using PagedList.Mvc;
+@model PagedList.IPagedList<WebApplication3.Models.sanpham>
+
+<style>
+
+    #ttable {
+        width: 220px;
+        height: 360px;
+        margin-left: 20px;
+        margin-top: 30px;
+        background-color: aliceblue;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: 1px solid #eaeaea;
+        background: #ff3366;
+        color: white;
+        line-height: 1.5;
+        height: 49px;
+        width: 100px;
+        font-size: large;
+        hanging-punctuation
+    }
+
+    .chitiet {
+        float: left;
+    }
+
+        .chitiet:hover {
+        }
+
+    button:hover {
+        background-color: hotpink;
+        border: 1px solid #ff3366;
+    }
+
+    .box {
+        float: left;
+        display: inline-block;
+    }
+
+    .tensanpham {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .giasanpham {
+        height: 40px;
+        width: 100%;
+    }
+
+    .footerbox {
+        width: 100%;
+        background-color: lemonchiffon;
+    }
+
+    .chitiet1 {
+        height: 30px;
+        float: left;
+    }
+
+    .chitiet2 {
+        height: 30px;
+        float: right;
+    }
+
+    #main {
+        display: inline-block;
+        padding-left: 40px;
+        background-color: blanchedalmond;
+    }
+
+    .font {
+        font-family: Arial;
+        color: black;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    }
+</style>
+
+<div class="row product-list" id="main">
+
+
+
+
+
+    @{
+
+        //foreach (sanpham s in ViewBag.sanpham)
+        foreach (var item in Model)
+        {
+
+            <div style="display:inline-block; padding-left:20px;">
+                <div class="box" id="ttable">
+                    <div>
+
+                        <div class="anhsp">
+                            <center>  <img src="~/Content/anh/@Html.DisplayFor(modelItem => item.anhsanpham)" class="img-thumbnail" style="width:200px; height:200px;" /></center>
+                        </div>
+
+
+                        <div class="tensanpham"><center><h2><b><p class="font">@*@s.tensanpham*@  @Html.DisplayFor(modelItem => item.tensanpham) </p></b></h2> </center></div>
+                        <div class="giasanpham">
+                            <div style="font-size:larger; color:red;" class="chitiet1">@Html.DisplayFor(modelItem => item.dongia) VND</div>
+                            <div class="chitiet2"><a href="#"><p style="color:blue;">Chi tiết<p></p></a></div>
+                        </div>
+
+
+                    </div>
+                    <div>
+                        <center>
+                            <form>
+                                <input type="submit" value="Mua" class="btn" />
+                            </form>
+                        </center>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        }
+
+
+
+    }
+
+
+
+    <div id="page_navigation"></div>
+</div>
+<br />
+
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page }))
+
+@section css
+    {
+
+}
+
+@section scripts
+{
+
+
+}

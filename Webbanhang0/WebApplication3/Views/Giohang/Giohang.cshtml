@@ -1,0 +1,288 @@
+﻿
+@{
+    ViewBag.Title = "Giohang";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+}
+
+@{ 
+    khachhang kh = (khachhang)ViewData["kh"];
+
+}
+@using WebApplication3.Models
+<style>
+    #txt{
+        width:500px;
+        
+    }
+</style>
+
+<div class="cart">
+    <div class="page-title title-buttons">
+        <h1>Giỏ hàng</h1>
+        <ul class="checkout-types">
+            <li>
+                <button type="button" title="Proceed to Checkout" class="button btn-proceed-checkout btn-checkout">
+                    <span><span>Tiến hành kiểm tra</span></span>
+                </button>
+            </li>
+        </ul>
+    </div><!-- /.page-title -->
+    @*<form method="post">*@
+        <input name="form_key" type="hidden" value="inYgLvzSpOOWWVoP">
+        <fieldset>
+
+                <table id="shopping-cart-table" class="data-table cart-table table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                <span class="nobr">Ảnh sản phẩm</span>
+                            </th>
+                            <th>Tên sản phẩm</th>
+
+                            <th class="a-center" colspan="1">
+                                <span class="nobr">Đơn giá</span>
+                            </th>
+                            <th class="a-center">Số lượng</th>
+                            <th class="a-center last">Thành tiền</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                            @{
+                                foreach (CartItem item in (List<CartItem>)ViewData["lisp"])
+                                {
+
+                                    <tr class="first odd">
+                                        <td>
+                                            <div class="cart-product">
+                                                <a href="@Url.Action("Xoasanphamtronggiohang/" + item.masanpham)" title="Remove item" class="btn-remove btn-remove2">Loại bỏ mục</a>
+                                                <a href="product-detail.html" title=" baby dino baller graphic tee " class="product-image">
+                                                    <img src="~/Content/anh/@item.anhsanpham" style="width:100px; height:100px;" alt=" baby dino baller graphic tee ">
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h2 class="product-name"> <a href="product-detail.html">@item.tensanpham  </a></h2>
+
+                                        </td>
+
+
+                                        <td class="a-center">
+                                            <span class="cart-price"> <span class="price">@item.dongia VND</span> </span>
+                                        </td>
+                                        
+                                        <td class="a-center">
+                                            <form action="Capnhatsoluong" method="get">
+                                            <div class="qty_cart">
+                                                <input type="hidden" name="SanPhamID" value="@item.masanpham" />
+                                                @Html.TextBox("soluong", item.soluong, new { @style="width:60px;"})
+                                            </div>
+                                                <div class="qty_cart">
+                                                    <button type="submit" class="btn-success btn">Cập nhật</button>
+                                                </div>
+                                                </form>
+                                        </td>
+                                        <td class="a-center last">
+                                            <span class="cart-price"> <span class="price">@item.thanhtien VND</span> </span>
+                                        </td>
+                                       
+                                           
+                                    </tr>
+
+
+                                }
+                            }
+                        
+                            <tr style="background-color:antiquewhite;">
+                                <td colspan="7" class="a-right">
+
+
+
+                                    @using ((Html.BeginForm("Index", "Sanphamuser", FormMethod.Post)))
+                                    {
+
+                                        <button type="submit" name="update_cart_action" value="update_qty" title="Tiếp tục mua hàng" class="button btn-update">
+                                            <span><span>Tiếp tục mua hàng</span></span>
+                                        </button>
+                                    }
+                                    
+                                    @using ((Html.BeginForm("Xoagiohang", "Giohang", FormMethod.Post)))
+                                    {
+                                        <button type="submit" name="update_cart_action" value="empty_cart" title="Xóa giỏ hàng" class="button btn-empty" id="empty_cart_button">
+                                            <span><span>Xóa giỏ hàng</span></span>
+                                        </button>
+                                    }
+
+                                </td>
+                            </tr>
+                        </tbody>
+                   
+                    </table>
+                    </fieldset>
+    @*</form>*@<!-- /form -->
+    @using ((Html.BeginForm("Datmua", "Giohang", FormMethod.Post, new { @class = "dangky", @id = "form-validate" })))
+    {
+        <div class="cart-collaterals row">
+            <div class="first col-md-16 col-sm-24">
+                <div class="row">
+                    <div class="em-box-cart">
+                        <div class="em-box" style="width:540px;">
+                            <!-- Thôn tin người mua -->
+                            <div class="em-inner-main">
+                                <div class="em-wrapper-area02"></div>
+                                <div class="em-main-container em-col1-layout">
+                                    <div class="row">
+                                        <div class="em-col-main col-sm-24">
+                                            <div class="account-create">
+                                                <div class="page-title">
+                                                    <h2>Thông tin đặt hàng</h2>
+                                                </div>
+
+                                                <div class="fieldset">
+                                                    <input type="hidden" name="success_url" value="" />
+                                                    <input type="hidden" name="error_url" value="" />
+
+                                                    <ul class="form-list">
+                                                        <li class="fields">
+                                                            <div class="customer-name-middlename">
+                                                                <div class="field name-firstname">
+                                                                    <label for="firstname" class="required"><em>*</em><b>Họ tên</b></label>
+                                                                    <div class="input-box">
+                                                                        @Html.TextBox("hoten", kh.hoten, new { @id = "txt", @class = "input-text required-entry", @title = "hoten" })
+                                                                        @*<input type="text" id="firstname" name="firstname" value="@user.hoten" title="First Name" maxlength="255" class="input-text required-entry" />*@
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="fields">
+                                                            <div class="customer-name-middlename">
+                                                                <div class="field name-firstname">
+                                                                    <label for="firstname" class="required"><em>*</em><b>Địa chỉ nhận hàng</b></label>
+                                                                    <div class="input-box">
+                                                                        @Html.TextBox("diachi", kh.diachi, new { @id = "txt", @class = "input-text required-entry", @title = "hoten" })
+                                                                        @*<input type="text" id="firstname" name="firstname" value="@user.diachi" title="First Name" maxlength="255" class="input-text required-entry" />*@
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="fields">
+                                                            <div class="customer-name-middlename">
+                                                                <div class="field name-firstname">
+                                                                    <label for="firstname" class="required"><em>*</em><b>Email</b></label>
+                                                                    <div class="input-box">
+                                                                        @Html.TextBox("email", kh.email, new { @id = "txt", @class = "input-text required-entry", @title = "email" })
+                                                                        @*<input type="text" id="email" name="email" value="@user.email" title="Email" maxlength="255" class="input-text required-entry" />*@
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="fields">
+                                                            <div class="customer-name-middlename">
+                                                                <div class="field name-firstname">
+                                                                    <label for="firstname" class="required"><em>*</em><b>Số điện thoại</b></label>
+                                                                    <div class="input-box">
+                                                                        @Html.TextBox("sodienthoai", kh.sodienthoai, new { @id = "txt", @class = "input-text required-entry", @title = "sodienthoai" })
+                                                                        @*<input type="text" id="sodienthoai" name="sodienthoai" value="@user.sodienthoai" title="First Name" maxlength="255" class="input-text required-entry" />*@
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="fields">
+                                                            <div class="customer-name-middlename">
+                                                                <div class="field name-firstname">
+                                                                    <label for="firstname" class="required"><em>*</em><b>Ghi chú</b></label>
+                                                                    <div class="input-box">
+                                                                        @Html.TextBox("ghichu", "", new { @id = "txt", @class = "input-text required-entry", @title = "tendangnhap" })
+                                                                        @*<input type="text" id="tendangnhap" name="tendangnhap" value="@user.tendangnhap" title="tendangnhap" maxlength="255" class="input-text required-entry" />*@
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="fields">
+                                                            <div class="customer-name-middlename">
+                                                                <div class="field name-firstname">
+                                                                    <label for="firstname" class="required"><em>*</em><b>Phương thức thanh toán</b></label>
+                                                                    <div class="input-box">
+                                                                        
+                                                                            @Html.DropDownList("phuongthuc", (IEnumerable<SelectListItem>)ViewBag.listpttt, new { @class = "form-control" })
+
+                                                                        
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+
+                                               
+                                                @*<form method="post" id="form-validate" class="dangky"></form>*@
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- /first -->
+                </div>
+
+            </div>
+            <div class="last totals col-md-8 col-sm-24">
+
+                <div class="em-box-cart">
+                    <div class="em-box" style="height:440px;">
+                        <table border="1" style="width:240px;">
+                            <tfoot>
+                                <tr>
+                                    <td>
+
+                                        <p style="font-size:large">Tổng tiền</p>
+
+                                    </td>
+                                    <td>
+                                        @*<strong><span class="price">@ViewData["tongtien"]</span></strong>*@
+                                        @Html.TextBox("tongtienthanhtoan", ViewData["tongtien"])
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td colspan="2">
+
+                                        <ul class="checkout-types" style="padding-left:70px;">
+                                            <li>
+                                                <button type="submit" class="button btn-success btn-outline-success">
+                                                    <span><span>Đặt mua</span></span>
+                                                </button>
+
+
+                                            </li>
+
+                                        </ul>
+
+
+                                    </td>
+                                </tr>
+                            </tfoot>
+                            <tbody></tbody>
+                        </table>
+                        <div @*style="overflow:hidden;"*@>
+                            <iframe src="https://calendar.google.com/calendar/embed?src=buidinhdat08111997%40gmail.com&ctz=Asia%2FHo_Chi_Minh" style="border: 0" width="240" height="250" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </div><!-- /.em-box-cart -->
+            </div><!-- /.last -->
+        </div><!-- /.cart-collaterals -->
+    }
+
+    </div>

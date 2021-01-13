@@ -1,0 +1,212 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/Shared/_mainlayout.cshtml";
+}
+@*@model sanpham
+    @using WebApplication3.Models;*@
+
+@using PagedList.Mvc;
+@model PagedList.IPagedList<WebApplication3.Models.sanpham>
+    @using WebApplication3.Models;
+
+<style>
+
+    #ttable {
+        width: 220px;
+        height: 360px;
+        margin-left: 20px;
+        margin-top: 30px;
+        background-color: antiquewhite;
+    }
+    
+
+    .chitiet {
+        float: left;
+    }
+
+        .chitiet:hover {
+        }
+
+    button:hover {
+        background-color: hotpink;
+        border: 1px solid #ff3366;
+    }
+
+    .box {
+        float: left;
+        display: inline-block;
+    }
+
+    .tensanpham {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .giasanpham {
+        height: 40px;
+        width: 100%;
+    }
+
+    .footerbox {
+        width: 100%;
+        background-color: lemonchiffon;
+    }
+
+    .chitiet1 {
+        height: 30px;
+        float: left;
+    }
+
+    .chitiet2 {
+        height: 30px;
+        float: right;
+    }
+
+    #main {
+        display: inline-block;
+        padding-left: 20px;
+        padding-top:20px;
+        padding-right:20px;
+        background-color: beige;
+    }
+
+    .font {
+        font-family:'Global Sans Serif';
+        color: black;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    }
+    
+</style>
+
+<div class="row product-list" id="main">
+
+
+
+
+
+    
+            <div id="tab_emtabs_1_3" class="tab-pane tab-item content_tab_emtabs_1_3 r-tabs-state-default r-tabs-panel">
+                <div class="wrapper button-show01 button-hide-text em-wrapper-loaded">
+                    <div class="emfilter-ajaxblock-loaded">
+                        <div id="em_fashion_new_arrivals_tab03" class="em-grid-20 ">
+
+
+                            <div class="widget em-filterproducts-grid">
+                                <div class="widget-products em-widget-products">
+                                    <div class="emcatalog-desktop-4" id="em-grid-mode-em_fashion_new_arrivals_tab03">
+                                        <div class="products-grid ">
+                                            @{
+
+                                                foreach (var item in Model)
+                                                {
+                                                    <div class="item first" style="">
+                                                        <div class="product-item">
+                                                            <div class="product-shop-top">
+                                                                <a href="@Url.Action("Details", new { id=Html.DisplayFor(model=>item.masanpham)})" title=" @Html.DisplayFor(model=>item.tensanpham)" class="product-image">
+                                                                    <!--show label product - label extension is required-->
+
+
+                                                                    <img class="em-alt-hover img-responsive em-img-lazy" src="~/Content/anh/@Html.DisplayFor(model=>item.anhsanpham)" alt=" Embellished Mirror Pastel" style="height:200px; width:350px;">
+                                                                    <img class="img-responsive em-img-lazy em-alt-org" src="~/Content/anh/@Html.DisplayFor(model=>item.anhsanpham)" alt=" Embellished Mirror Pastel" style="height:200px; width:350px;">
+                                                                </a>
+                                                                <div class="em-element-display-hover bottom">
+                                                                    <div class="em-btn-addto">
+                                                                        <!--product add to cart-->
+                                                                        @using ((Html.BeginForm("Themvaogiohang/"+Html.DisplayFor(model=>item.masanpham), "Giohang", FormMethod.Post, new { @class = "dangky", @id = "form-validate" })))
+                                                                        {
+                                                                            <button type="submit" title="Thêm vào giỏ " class="button btn-cart" >
+                                                                                <span><span>Thêm vào giỏ</span></span>
+                                                                            </button>
+                                                                        }
+
+                                                                            <!--product add to compare-wishlist-->
+                                                                            <ul class="add-to-links">
+                                                                                <li>
+                                                                                    <a onclick="" href="#1" class="link-wishlist" title=""></a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <span class="separator">|</span> <a href="#1" class="link-compare" title=""></a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    <div class="quickshop-link-container">
+                                                                        <a href="#" class="quickshop-link" title=""></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="product-shop">
+                                                                <div class="f-fix">
+                                                                    <!--product name-->
+                                                                    <h3 style="min-height: 0px;" class="product-name"><a href="@Url.Action("Details", new { id=Html.DisplayFor(model=>item.masanpham)})" title="@Html.DisplayFor(model=>item.tensanpham)">@Html.DisplayFor(model=>item.tensanpham)</a></h3>
+                                                                    <!--product description-->
+                                                                    <!--product reviews-->
+                                                                    <div class="ratings">
+                                                                        <div class="rating-box">
+                                                                            <div class="rating" style="width:0%;"></div>
+                                                                        </div>
+                                                                        @{ 
+                                                                                ModelUser db = new ModelUser();
+
+                                                                                List<danhgia> lidg = db.danhgia.ToList();
+                                                                                int soluong = 0;
+                                                                            for (int i = 0; i < lidg.Count; i++)
+                                                                            {
+                                                                                if (lidg[i].masanpham == item.masanpham)
+                                                                                {
+                                                                                    soluong++;
+                                                                                }
+                                                                        }
+                                                                        }
+                                                                        <span class="amount"><a href="#">(@soluong)</a></span> <!-- số lượng đánh giá-->
+                                                                    </div>
+                                                                    <!--product price-->
+
+
+
+                                                                    <div class="price-box">
+                                                                        <span class="regular-price" id="product-price-170-emprice-286cee5e9b842b2fa93ac8f2843286c6">
+                                                                            <span class="price">@Html.DisplayFor(model=>item.dongia).ToHtmlString() VND</span>
+                                                                        </span>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- /.item -->
+
+                                                    }
+                                                }
+                                                </div><!-- /.products-grid -->
+                                    </div>
+                                </div>
+                            </div><!-- /.widget -->
+
+                        </div><!-- /#em_fashion_new_arrivals_tab03 -->
+                    </div>
+                </div>
+            </div>
+</div>
+    <br />
+
+
+
+
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new {page}))
+
+    @section css
+    {
+
+    }
+
+    @section scripts
+{
+
+
+    }
+

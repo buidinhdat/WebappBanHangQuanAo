@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = "~/Areas/Areas/Views/Shared/_LoginAdminlayout.cshtml";
+
+}
+
+@*@using (Html.BeginForm("Xulydangnhap", "Admin", FormMethod.Post, new { @class = "login-form" }))
+{*@
+    <form action="Xulydangnhap" method="post" class="login-form">
+
+    <div class="login-wrap">
+        <p class="login-img"><i class="icon_lock_alt"></i></p>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="icon_profile"></i></span>
+            @Html.TextBox("Tendangnhap", "", new { @class = "form-control", @autofocus = "autofocus", @placeholder = "Tên đăng nhập", @id = "txttendangnhap" })
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+            @Html.Password("Matkhau", "", new { @class = "form-control", @placeholder = "Mật khẩu", @id = "txtmatkhau" })
+
+
+        </div>
+
+        <div >
+        <center><button class="btn btn-primary"  type="submit" id="dangnhap" onclick="xuly()">
+                <span class="glyphicon glyphicon-adjust"></span>Đăng nhập
+        </button> </center>
+        </div>
+
+
+    </div>
+        </form>
+
+@*}*@
+

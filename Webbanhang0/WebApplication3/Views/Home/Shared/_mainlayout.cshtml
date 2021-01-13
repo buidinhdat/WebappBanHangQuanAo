@@ -1,0 +1,1156 @@
+﻿@using WebApplication3.Models;
+
+
+@{ 
+    List<CartItem> giohang = (List<CartItem>) Session["giohang"];
+    int soluongtronggiohang;
+    try
+    {
+        soluongtronggiohang = giohang.Count();
+    }
+    catch
+    {
+        soluongtronggiohang = 0;
+    }
+}
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Mirrored from htmlcooker.com/tvlgiao/everything/assets/everything/fashion/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 02:40:03 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fashion : Everything Template</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="HTMLCooker">
+    <!-- ================= Favicon ================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Standard -->
+    <!--thêm vào -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+
+    @*<link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">*@
+
+    <!-- ================= Google Fonts ================== -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700,800&amp;subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lora:200,300,400,500,600,700,800&amp;subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800&amp;subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext' rel='stylesheet' type='text/css' />
+
+    <!-- Cloud Zoom CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/em_cloudzoom.css" media="all" /> -->
+    <!-- Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/menu.css" media="all" />
+    <!-- Mega Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/megamenu.css" media="all" />
+
+
+    <!-- Widget CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/widgets.css" media="all" /> -->
+    <link rel='stylesheet' type='text/css' media='all' href='~/Content/assetshome/css/jquery.ui.css' />
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/styles.css" media="all" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/font-awesome.css" media="all" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/owl.carousel.css" media="all" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/responsive.css" media="all" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/bootstrap.css" media="all" />
+
+    <!-- Ajax Cart CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/em_ajaxcart.css" media="all" /> -->
+    <!-- Blog Style CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/blog-styles.css" media="all" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/blog-styles.css" media="all" /> -->
+    <!-- Multi Deal Pro CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/em_multidealpro.css" media="all" /> -->
+    <!-- Product Labels CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/em_productlabels.css" media="all" />
+
+    <!-- Quick Shop CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/em_quickshop.css" media="all" /> -->
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/jquery.fancybox.css" media="all" />
+
+    <!-- Responsive Tab CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/responsive-tabs.css" media="all" />
+    <!-- Print CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/assetshome/css/print.css" media="print" />
+    <!-- Fashion CSS -->
+    <link rel='stylesheet' type='text/css' media='all' href='~/Content/assetshome/css/style_fashion.css' />
+    <!-- Fashion CSS -->
+    <link rel='stylesheet' type='text/css' media='all' href='~/Content/assetshome/css/color1.css' />
+
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+    <!-- Jquery Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/jquery-1.11.3.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/bootstrap.min.js"></script>
+    <!-- Lazy Load Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/jquery.lazyload.min.js"></script>
+    <!-- Owl Carousel Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/owl.carousel.js"></script>
+    <!-- Ios Orientation Change Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/ios-orientationchange-fix.js"></script>
+    <!-- Hover Intent Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/jquery.hoverIntent.js"></script>
+    <!-- Select UI Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/selectUl.js"></script>
+    <!-- Throttle Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/jquery.ba-throttle-debounce.js"></script>
+    <!-- EM Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/em0131.js"></script>
+    <!-- MegaMenu Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/megamenu.js"></script>
+    <!-- Responsive Tab Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/jquery.custom.responsiveTabs.js"></script>
+    <!-- Fancybox Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/jquery.fancybox.js"></script>
+    <!-- Custom Js -->
+    <script type="text/javascript" src="~/Content/assetshome/js/custom.js"></script>
+    <link rel="shortcut icon" href="~/Content/assets/img/logo.ico" />
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    <!---INDEX-->
+    @RenderSection("css", false)
+    <style>
+    </style>
+
+</head>
+@{ 
+    string dangnhap = "";
+    string dangxuat = "";
+    string taikhoan = "";
+    string dangky = "";
+    string tenkhachhang = "";
+    khachhang kh = (khachhang)Session["nguoidung"];
+    if (Session["nguoidung"]==null)
+    {
+        dangnhap = "inline";
+        dangxuat = "none";
+        taikhoan = "none";
+        dangky = "inline";
+    }
+    else
+    {
+        dangnhap = "none";
+        dangxuat = "inline";
+        taikhoan = "inline";
+        dangky = "none";
+        tenkhachhang = kh.hoten;
+    }
+}
+<body class="cms-index-index">
+
+    <div class="wrapper ">
+        <noscript>
+            <div class="global-site-notice noscript">
+                <div class="notice-inner">
+                    <p>
+                        <strong>JavaScript seems to be disabled in your browser.</strong>
+                        <br /> You must have JavaScript enabled in your browser to utilize the functionality of this website.
+                    </p>
+                </div>
+            </div>
+        </noscript>
+        <div class="page two-columns-left">
+
+            <div class="em-wrapper-header">
+                <div id="em-mheader" class="visible-xs container">
+                    <div id="em-mheader-top" class="row">
+                        <div id="em-mheader-logo" class="col-xs-4">
+                            <div class="em-logo">
+                                <a href="/" title="Fashion Commerce" class="logo"><strong>Fashion style</strong><img src="~/Content/assetshome/images/logo_small.png" alt="Fashion style" /></a>
+                            </div>
+                        </div><!-- /#em-mheader-logo -->
+                        <div class="col-xs-20">
+                            <div class="em-top-search">
+                                <div class="em-header-search-mobile">
+                                    <form method="get">
+                                        <div class="form-search no_cate_search">
+                                            <div class="text-search">
+                                                <input id="search-mobile" type="text" name="q" value="" class="input-text" maxlength="128" />
+                                                <button type="submit" title="Search" class="button">
+                                                    <span><span>Tìm kiếm</span></span>
+                                                </button>
+                                                <div id="search_autocomplete_mobile" class="search-autocomplete"></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div><!-- /.em-header-search-mobile -->
+                            </div><!-- /.em-top-search -->
+                            <div class="em-top-cart">
+                                <div class="em-wrapper-topcart-mobile em-no-quickshop">
+                                    <div class="em-container-topcart">
+                                        <div class="em-summary-topcart">
+                                            <a id="em-amount-cart-link" title="Shopping Cart" class="em-amount-topcart" href="cart.html"> <span class="em-topcart-text">My Cart:</span> <span class="em-topcart-qty">0</span> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /.em-top-cart -->
+                            <div id="em-mheader-wrapper-menu">
+                                <span class="visible-xs fa fa-bars" id="em-mheader-menu-icon"></span>
+                                <div id="em-mheader-menu-content" style="display: none;">
+                                    <div class="em-wrapper-top">
+                                        <div class="em-language-currency row">
+                                            <div class="col-sm-24">
+                                                <div class="form-language em-language-style-mobile">
+                                                    <ul>
+                                                        <li class="selected">
+                                                            <a href="#" title="Vietnamese"> <img alt="english" src="~/Content/assetshome/images/language/english.png" /> </a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="#" title="Tiếng Việt"> <img alt="french" src="~/Content/assetshome/images/language/french.png" /> </a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="#" title="German"> <img alt="german" src="~/Content/assetshome/images/language/german.png" /> </a>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- /.form-language -->
+                                                <div class="em-currency-style-mobile">
+                                                    <ul class="list-inline">
+                                                        <li class="">
+                                                            <a href="#"> VND </a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="#"> EUR </a>
+                                                        </li>
+                                                        <li class=" selected">
+                                                            <a href="#">USD </a>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- /.em-currency-style-mobile -->
+                                            </div>
+                                        </div><!-- /.em-language-currency -->
+                                        <div class="em-top-links row">
+                                            <div class="">
+                                                <ul class="top-header-link links">
+                                                    <li class="first col-xs-8">
+                                                        <a title="Log In" class="login-link fa fa-user" href="#"><span>Đăng nhập</span></a>
+                                                    </li>
+                                                    <li class="col-xs-8">
+                                                        <a title="Sign up" class='signup-link fa fa-sign-out' href="#"><span>Đăng ký</span></a>
+                                                    </li>
+                                                    <li class="last col-xs-8">
+                                                        <a href="#" class="checkout-link fa fa-shopping-cart"><span>Giỏ hàng</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- /.em-top-links -->
+                                    </div><!-- /.em-wrapper-top -->
+                                    <div class="row mobile-main-menu toggle-menu">
+                                        <div class="col-sm-24">
+                                            <div class="em-top-menu">
+                                                <div class="em-menu-mobile">
+                                                    <div class="megamenu-wrapper wrapper-7_5505">
+                                                        <div class="em_nav" id="toogle_menu_7_5505">
+                                                            <ul class="hnav em_menu_mobile">
+                                                                <li class="menu-item-link menu-item-depth-0 fa fa-home menu-item-parent">
+                                                                    <a class="em-menu-link" href="@Url.Action("Index","Sanphamuser")"> <span> Trang chủ </span> </a>
+                                                                    <ul class="menu-container">
+                                                                        <li class="menu-item-hbox menu-item-depth-1 col-menu menu_col9 grid_18 menu-item-parent" style="">
+                                                                            <ul class="menu-container">
+                                                                                <li class="menu-item-vbox menu-item-depth-2 col-sm-12 menu-item-parent" style="">
+                                                                                    <ul class="menu-container">
+                                                                                        <li class="menu-item-text menu-item-depth-3  ">
+                                                                                            <ul class="em-line-01">
+                                                                                                <li>
+                                                                                                    <h4>Layout styles</h4>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <ul class="menu-link">
+                                                                                                        <li>
+                                                                                                            <a href="/">Home Default</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href="#">Home Style 02</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href="#">Home Style 03</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href="#">Home Style 04</a>
+                                                                                                        </li>
+                                                                                                    </ul><!-- /.menu-link -->
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.menu-item-vbox -->
+                                                                                <li class="menu-item-vbox menu-item-depth-2 col-sm-12 menu-item-parent" style="">
+                                                                                    <ul class="menu-container">
+                                                                                        <li class="menu-item-text menu-item-depth-3  ">
+                                                                                            <div class="em-line-01">
+                                                                                                <h4>Header styles</h4>
+                                                                                                <div>
+                                                                                                    <ul class="menu-link">
+                                                                                                        <li>
+                                                                                                            <a href="/">Header Style 01</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href="#">Header Style 02</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href="#">Header Style 04</a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <a href="#">Header Style 03</a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.menu-item-vbox -->
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!-- /.menu-item-link -->
+                                                                <li class="menu-item-link menu-item-depth-0 dd-menu-link fa fa-bars menu-item-parent">
+                                                                    <a class="em-menu-link" href="#"> <span> Category </span> </a>
+                                                                    <ul class="menu-container">
+                                                                        <li class="menu-item-text menu-item-depth-1  ">
+                                                                            <ul class="em-catalog-navigation vertical">
+                                                                                <li class="level0 nav-1 first parent">
+                                                                                    <a href="#"> <span>Furniture</span> </a>
+                                                                                    <ul class="level0">
+                                                                                        <li class="level1 nav-1-1 first">
+                                                                                            <a href="#"> <span>Living Room</span> </a>
+                                                                                        </li>
+                                                                                        <li class="level1 nav-1-2 last">
+                                                                                            <a href="#"> <span>Bedroom</span> </a>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.nav-1 -->
+                                                                                <li class="level0 nav-2 parent">
+                                                                                    <a href="#"> <span>Electronics</span> </a>
+                                                                                    <ul class="level0">
+                                                                                        <li class="level1 nav-2-1 first">
+                                                                                            <a href="#"> <span>Cell Phones</span> </a>
+                                                                                        </li>
+                                                                                        <li class="level1 nav-2-2 parent">
+                                                                                            <a href="#"> <span>Cameras</span> </a>
+                                                                                            <ul class="level1">
+                                                                                                <li class="level2 nav-2-2-1 first">
+                                                                                                    <a href="#"> <span>Accessories</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-2-2 last">
+                                                                                                    <a href="#"> <span>Digital Cameras</span> </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                        <li class="level1 nav-2-3 last parent">
+                                                                                            <a href="#"> <span>Computers</span> </a>
+                                                                                            <ul class="level1">
+                                                                                                <li class="level2 nav-2-3-3 first">
+                                                                                                    <a href="#"> <span>Build Your Own</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-4">
+                                                                                                    <a href="#"> <span>Laptops</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-5">
+                                                                                                    <a href="#"> <span>Hard Drives</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-6">
+                                                                                                    <a href="#"> <span>Monitors</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-7">
+                                                                                                    <a href="#"> <span>RAM / Memory</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-8">
+                                                                                                    <a href="#"> <span>Cases</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-9">
+                                                                                                    <a href="#"> <span>Processors</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-2-3-10 last">
+                                                                                                    <a href="#"> <span>Peripherals</span> </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.nav-2 -->
+                                                                                <li class="level0 nav-3 parent">
+                                                                                    <a href="#"> <span>Apparel</span> </a>
+                                                                                    <ul class="level0">
+                                                                                        <li class="level1 nav-3-1 first">
+                                                                                            <a href="#"> <span>Shirts</span> </a>
+                                                                                        </li>
+                                                                                        <li class="level1 nav-3-2 parent">
+                                                                                            <a href="#"> <span>Shoes</span> </a>
+                                                                                            <ul class="level1">
+                                                                                                <li class="level2 nav-3-2-1 first">
+                                                                                                    <a href="#"> <span>Mens</span> </a>
+                                                                                                </li>
+                                                                                                <li class="level2 nav-3-2-2 last">
+                                                                                                    <a href="#"> <span>Womens</span> </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                        <li class="level1 nav-3-3 last">
+                                                                                            <a href="#"> <span>Hoodies</span> </a>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.nav-3 -->
+                                                                                <li class="level0 nav-4">
+                                                                                    <a href="#"> <span>Fashion</span> </a>
+                                                                                </li><!-- /.nav-4 -->
+                                                                                <li class="level0 nav-5">
+                                                                                    <a href="#"> <span>Shoes</span> </a>
+                                                                                </li><!-- /.nav-5 -->
+                                                                                <li class="level0 nav-6">
+                                                                                    <a href="#"> <span>Glasses</span> </a>
+                                                                                </li><!-- /.nav-6 -->
+                                                                                <li class="level0 nav-7">
+                                                                                    <a href="#"> <span>Baby</span> </a>
+                                                                                </li><!-- /.nav-7 -->
+                                                                                <li class="level0 nav-8">
+                                                                                    <a href="#"> <span>Sport &amp; Outdoor</span> </a>
+                                                                                </li><!-- /.nav-8 -->
+                                                                                <li class="level0 nav-9">
+                                                                                    <a href="#"> <span>Swatch</span> </a>
+                                                                                </li><!-- /.nav-9 -->
+                                                                                <li class="level0 nav-10">
+                                                                                    <a href="#"> <span>Jewelry</span> </a>
+                                                                                </li><!-- /.nav-10 -->
+                                                                                <li class="level0 nav-11">
+                                                                                    <a href="#"> <span>Home Garden</span> </a>
+                                                                                </li><!-- /.nav-11 -->
+                                                                                <li class="level0 nav-12">
+                                                                                    <a href="#"> <span>Lingerie</span> </a>
+                                                                                </li><!-- /.nav-12 -->
+                                                                                <li class="level0 nav-13">
+                                                                                    <a href="#"> <span>Beauty</span> </a>
+                                                                                </li><!-- /.nav-13 -->
+                                                                                <li class="level0 nav-14 last">
+                                                                                    <a href="#"> <span>Game &amp; Movies</span> </a>
+                                                                                </li><!-- /.nav-14 -->
+                                                                            </ul><!-- /.em-catalog-navigation -->
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!-- /.menu-item-link -->
+                                                                <li class="menu-item-link menu-item-depth-0 fa fa-file menu-item-parent">
+                                                                    <a class="em-menu-link" href="#"> <span> Products </span> </a>
+                                                                    <ul class="menu-container">
+                                                                        <li class="menu-item-hbox menu-item-depth-1 col-menu menu_col16 grid_16 menu-item-parent" style="">
+                                                                            <ul class="menu-container">
+                                                                                <li class="menu-item-vbox menu-item-depth-2 col-sm-8 grid_8 alpha menu-item-parent" style="">
+                                                                                    <ul class="menu-container">
+                                                                                        <li class="menu-item-text menu-item-depth-3  ">
+                                                                                            <div class="em-line-01">
+                                                                                                <h5 class="text-uppercase">Product Types</h5>
+                                                                                                <div>
+                                                                                                    <ul class="menu-container">
+                                                                                                        <li class="menu-item-link menu-item-depth-1 first label-hot-menu">
+                                                                                                            <a class="em-menu-link" href="product-simple.html">Simple product</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1">
+                                                                                                            <a class="em-menu-link" href="product-virtual.html">Virtual Product</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1">
+                                                                                                            <a class="em-menu-link" href="product-downloadable.html">Downloadable Product</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1">
+                                                                                                            <a class="em-menu-link" href="product-configurable.html">Configurable Product</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1">
+                                                                                                            <a class="em-menu-link" href="product-grouped.html">Grouped Product</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1 last">
+                                                                                                            <a class="em-menu-link" href="product-bundle.html">Bundle Product</a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.menu-item-vboxc -->
+                                                                                <li class="menu-item-vbox menu-item-depth-2 col-sm-8 grid_8 omega menu-item-parent" style="">
+                                                                                    <ul class="menu-container">
+                                                                                        <li class="menu-item-text menu-item-depth-3  ">
+                                                                                            <div class="em-line-01">
+                                                                                                <h5 class="text-uppercase">PRODUCT COLUMNS</h5>
+                                                                                                <div>
+                                                                                                    <ul class="menu-container">
+                                                                                                        <li class="menu-item-link menu-item-depth-1 first">
+                                                                                                            <a class="em-menu-link" href="product-1-column.html">1 Column</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1 ">
+                                                                                                            <a class="em-menu-link" href="product-2-columns-left.html">2 Columns Left</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1 ">
+                                                                                                            <a class="em-menu-link" href="product-2-columns-right.html">2 Columns Right</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1 ">
+                                                                                                            <a class="em-menu-link" href="product-3-columns.html">3 Columns</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1 ">
+                                                                                                            <a class="em-menu-link" href="product-upsell.html">Upsell</a>
+                                                                                                        </li>
+                                                                                                        <li class="menu-item-link menu-item-depth-1 last">
+                                                                                                            <a class="em-menu-link" href="product-related.html">Related Product</a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.menu-item-vboxc -->
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!-- /.menu-item-link -->
+                                                            </ul>
+                                                        </div>
+                                                    </div><!-- /.megamenu-wrapper -->
+                                                </div>
+                                            </div><!-- /.em-top-menu -->
+                                        </div>
+                                    </div><!-- /.mobile-main-menu -->
+                                    <div class="row mobile-block">
+                                        <div class="col-sm-24">
+                                            <ul class="em-mobile-help">
+                                                <li>
+                                                    <a href="#" target="_blank"><span class="fa fa-download">&nbsp;</span>Download App</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="fa fa-question-circle">&nbsp;</span>Help Center</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="fa fa-star">&nbsp;</span>Feedback</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="fa fa-comment-o">&nbsp;</span>Blog</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- /.mobile-block -->
+                                </div>
+                            </div><!-- /.em-mheader-wrapper-menu -->
+                        </div>
+                    </div><!-- /#em-mheader-top -->
+                </div><!-- /#em-mheader -->
+                <div class="hidden-xs em-header-style08">
+                    <div class="em-header-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-24">
+                                    <div class="f-left">
+                                        <div class="em-language-currency">
+                                            <div class="form-language toolbar-switch em-language-style01">
+                                                <div class="toolbar-title">
+                                                    <select id="em-hoverUl-language" title="Your Language">
+                                                        <option value="Tiếng Việt" selected="selected">Tiếng Việt</option>
+                                                        <option value="French">French</option>
+                                                        <option value="German">German</option>
+                                                    </select>
+                                                </div>
+                                            </div><!-- /.em-language-style01 -->
+                                            <div class="toolbar-switch em-currency-style01">
+                                                <div class="toolbar-title">
+                                                    <select id="em-hoverUl-currency" name="currency" title="Select Your Currency" onchange="setLocation(this.value)">
+                                                        <option value="AUD"> AUD</option>
+                                                        <option value="EUR"> EUR</option>
+                                                        <option value="VND" selected="selected"> VND</option>
+                                                    </select>
+                                                </div>
+                                            </div><!-- /.em-currency-style01 -->
+                                        </div><!-- /.em-language-currency -->
+                                    </div><!-- /.f-left -->
+                                    <div class="">
+                                        <div class="em-search f-right">
+                                            <div class="em-top-search">
+                                                <div class="em-wrapper-js-search em-search-style01">
+                                                    <div class="em-wrapper-search em-no-category-search">
+                                                        <a class="em-search-icon" title="Search" href="javascript:void(0);"><span>Tìm kiếm</span></a>
+                                                        <div class="em-container-js-search" style="display: none;">
+                                                            @using (Html.BeginForm("Index","Sanphamuser", FormMethod.Get, new { id = "search_mini_form"}))
+                                                            {
+                                                                <div class="form-search no_cate_search">
+                                                                <div class="text-search">
+                                                                    <label for="search">Tìm kiếm:</label>
+
+                                                                    <input id="search" type="text" name="timkiem" value="" class="input-text" maxlength="128" placeholder="Tìm kiếm gì nào..." />
+                                                                    <button type="submit" title="Tìm kiếm" class="button">
+                                                                        <span><span>Tìm kiếm </span></span>
+                                                                    </button>
+
+                                                                </div>
+                                                            </div>
+
+                                                          }
+
+
+                                                                    
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /.em-wrapper-js-search -->
+                                            </div>
+                                        </div><!-- /.em-search -->
+                                        <div class="em-top-links">
+
+                                            <!----đây là đăng xuất-->
+                                           
+                                            <ul class="list-inline f-right" style="display:@dangxuat">
+                                                <li>
+                                                    <div class="em-logout-link" id="link-login">@Html.ActionLink("Đăng xuất", "Dangxuat", "Home")</div>
+
+                                                </li>
+                                            </ul>
+                                            
+                                            <div class="f-right" style="display:@taikhoan">
+                                                <ul class="em-links-wishlist">
+                                                    <li class="first last"><a href="@Url.Action("Taikhoan","Home")" title="Tài khoản">@tenkhachhang</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <ul class="list-inline f-right" style="display:@dangky">
+                                                <li>
+                                                    <div class="em-register-link" id="link-login">@Html.ActionLink("Đăng ký", "Dangky", "Home")</div>
+
+                                                </li>
+                                            </ul>
+                                            <div id="em-login-link" class="account-link f-right em-non-login em-login-link" style="display:@dangnhap">
+                                               
+                                                <div class="link-account" id="link-login"> Đăng nhập</div>
+                                                <div class="em-account" id="em-account-login-form" style="display:none;">
+
+                                                    @using (Html.BeginForm("Dangnhapuser", "Home", FormMethod.Post, new { @id = "top-login-form" }))
+                                                    {
+                                                        <input name="form_key" type="hidden" value="LqnwQyvcDpOju7G3" />
+                                                        <div class="block-content">
+                                                            <p class="login-title h6 primary">Đăng nhập</p>
+                                                            <p class="login-desc">Nếu bạn đã có tài khoản, mời đăng nhập.</p>
+                                                            <ul class="form-list">
+                                                                <li>
+                                                                    <label for="mini-login">
+                                                                        Tên đăng nhập<em>*</em>
+                                                                    </label>
+                                                                    @Html.TextBox("mini-username", "", new { @class = "input-text required-entry validate-email", @autofocus = "autofocus", @placeholder = "Tên đăng nhập.." })
+                                                                </li>
+                                                                <li>
+                                                                    <label for="mini-password">
+                                                                        Mật khẩu<em>*</em>
+                                                                    </label>
+                                                                    @Html.Password("mini-password", "", new { @class = "input-text required-entry validate-password", @placeholder = "Mật khẩu..." })
+                                                                    @*<input type="password" name="login[password]" id="mini-password" class="input-text required-entry validate-password" />
+                                                                        </li>*@
+                                                                <li>
+                                                                    <span class="required">* Phần bắt buộc</span>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="action-forgot">
+                                                                <div class="login_forgotpassword">
+                                                                    <p>
+                                                                        <a href="#">Quên mật khẩu?</a>
+                                                                    </p>
+                                                                    <p>
+                                                                        <span>Tôi chưa có tài khoản!</span>  <div class="create-account-link-wishlist">@Html.ActionLink("Đăng ký", "Dangky", "Home")</div>
+
+                                                                    </p>
+                                                                </div>
+                                                                <div class="actions">
+                                                                    <button type="submit" class="button">
+                                                                        <span><span>Đăng nhập</span></span>
+                                                                    </button>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    @*</form>*@<!-- /#top-login-form -->
+                                                </div><!-- /#em-account-login-form -->
+                                            </div><!-- /#em-login-link -->
+                                        </div><!-- /.em-top-links -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.em-header-top -->
+                    <div id="em-fixed-top"></div>
+                    <div class="em-header-bottom em-fixed-top">
+                        <div class="container em-menu-fix-pos">
+                            <div class="row">
+                                <div class="col-sm-24">
+                                    <div class="em-logo f-left">
+                                        <a href="@Url.Action("Index","Sanphamuser")" title="Fashion Commerce" class="logo"><strong>Fashion Commerce</strong><img class="retina-img" src="~/Content/assetshome/images/logo.png" alt="Fashion Commerce" /></a>
+                                    </div>
+                                    <div class="em-logo-sticky f-left">
+                                        <a href="/" title="Fashion Commerce" class="logo">
+                                            <img src="~/Content/assetshome/images/logo_small.png" alt="Fashion Commerce" />
+                                        </a>
+                                    </div>
+                                    <div class="em-search em-search-sticky f-right">
+                                        <div class="em-top-search">
+                                            <div class="em-wrapper-js-search em-search-style01">
+                                                <div class="em-wrapper-search">
+                                                    <a class="em-search-icon" title="Search" href="javascript:void(0);"><span>Tiềm kiếm</span></a>
+                                                    <div class="em-container-js-search" style="display: none;">
+                                                        <form id="search_mini_form_fixed_top" method="get">
+                                                            <div class="form-search">
+                                                                <label for="search">Tiềm kiếm:</label>
+                                                                <input id="search-fixed-top" type="text" name="q" value="" class="input-text" maxlength="128" placeholder="..." />
+                                                                <button type="submit" title="Search" class="button">
+                                                                    <span><span>Tiềm kếm</span></span>
+                                                                </button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div><!-- /.em-wrapper-js-search -->
+                                        </div>
+                                    </div><!-- /.em-search -->
+                                    <div class="em-top-cart-sticky em-top-cart f-right">
+                                        <div class="em-wrapper-js-topcart em-wrapper-topcart em-no-quickshop">
+                                            <div class="em-container-topcart">
+                                                <div class="em-summary-topcart">
+                                                    <a class="em-amount-js-topcart em-amount-topcart" title="Shopping Cart" href="@Url.Action("Giohang","Giohang")"> <span class="em-topcart-text">Giỏ hàng</span> <span class="em-topcart-qty">@soluongtronggiohang</span> </a>
+                                                </div>
+                                                <div class="em-container-js-topcart topcart-popup" style="display:none">
+                                                    <div class="topcart-popup-content">
+                                                        <p class="em-block-subtitle">Giỏ hàng</p>
+                                                        <div class="topcart-content">
+                                                            <p class="amount-content "> Bạn có @soluongtronggiohang sản phẩm trong giỏ hàng.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.em-wrapper-js-topcart -->
+                                    </div><!-- /.em-top-cart -->
+                                    <div class="em-menu-hoz f-right">
+                                        <div id="em-main-megamenu">
+                                            <div class="em-menu">
+                                                <div class="megamenu-wrapper wrapper-4_7164">
+                                                    <div class="em_nav" id="toogle_menu_4_7164">
+                                                        <ul class="hnav em_hoz_menu effect-menu">
+                                                            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                                                                <a class="em-menu-link" href="@Url.Action("Index","Sanphamuser")"> <span> Trang chủ </span> </a>
+
+                                                            </li><!-- /.menu-item-link -->
+                                                            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                                                                <a class="em-menu-link" href="@Url.Action("Bando","Home")"> <span> Bản đồ </span> </a>
+                                                            </li>
+                                                            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                                                                <a class="em-menu-link" href="@Url.Action("Sanphammoi","Sanphamuser")"> <span> Sản phẩm mới </span> </a>
+                                                            </li>
+                                                            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                                                                <a class="em-menu-link" href="#"> <span> Tin tức </span> </a>
+
+                                                            </li><!-- /.menu-item-link -->
+                                                            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                                                                <a class="em-menu-link" href="#"> <span> Liên hệ </span> </a>
+
+                                                            </li><!-- /.menu-item-link -->
+                                                            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                                                                <a class="em-menu-link" href="#"> <span> Khuyễn mãi </span> </a>
+
+
+                                                            </li><!-- /.menu-item-link -->
+                                                        </ul><!-- /.hnav em_hoz_menu -->
+                                                    </div><!-- /.em_nav -->
+                                                </div><!-- /.megamenu-wrapper -->
+                                            </div><!-- /.em-menu -->
+                                        </div><!-- /#em-main-megamenu -->
+                                    </div><!-- /.em-menu-hoz -->
+                                </div>
+                            </div>
+                        </div><!-- /.container -->
+                    </div><!-- /.em-header-bottom -->
+                </div>
+            </div><!-- /.em-wrapper-header -->
+
+            <div class="em-wrapper-main">
+                <div class="container container-main">
+                    <div class="em-inner-main">
+                        <div class="em-wrapper-area01">
+                            <div class="row em-wrapper-ads-13 hidden-xs">
+                                <div class="text-box col-sm-8">
+                                    <a class="icon-banner-left pull-left" title="Tech Support 247" href="#"><em class="fa fa-fw"></em></a>
+                                    <div class="em-banner-right">
+                                        <h5><a title="Tech Support 247" href="#">TRẢ LẠI &amp; TRAO ĐỔI</a></h5>
+                                        <p>Không có gì ở đây!..</p>
+                                    </div>
+                                </div>
+                                <div class="text-box col-sm-8">
+                                    <a class="icon-banner-left pull-left" title="Free shipping all order" href="#"><em class="fa fa-fw"></em></a>
+                                    <div class="em-banner-right">
+                                        <h5><a title="Free shipping all order" href="#">MIỄN PHÍ VẬN CHUYỂN</a></h5>
+                                        <p>Nhận miễn phí vận chuyển cho tất cả đơn đặt hàng</p>
+                                    </div>
+                                </div>
+                                <div class="text-box col-sm-8">
+                                    <a class="icon-banner-left pull-left" title="30 days return" href="#"><em class="fa fa-fw"></em></a>
+                                    <div class="em-banner-right">
+                                        <h5><a title="30 days return" href="#">GIẢM GIÁ THÀNH VIÊN</a></h5>
+                                        <p>Mỗi thành viên sẽ được giảm giá khi mua hàng...</p>
+                                    </div>
+                                </div>
+                            </div><!-- /.em-wrapper-ads-13-->
+                        </div><!-- /.em-wrapper-area01 -->
+
+                        <div class="em-main-container em-col2-left-layout">
+                            <div class="row">
+                                <div class="col-sm-18 col-sm-push-6 em-col-main">
+                                    @RenderBody()
+                                </div>
+                            <!-- Xử lý load dữ liệu vào menu -->
+                                @using WebApplication3.Models
+
+                                @{ 
+                                    ModelUser ur = new ModelUser();
+                                    ViewData["lh"] = ur.loaihang.ToList();
+                                    ViewData["nhomhang"] = ur.nhomhang.ToList();
+                                }
+                                <div class="col-sm-6 col-sm-pull-18 em-col-left em-sidebar">
+                                    <div class="em-wrapper-area02">
+                                        <div class="menu-wrapper hidden-xs">
+                                            <div id="menuleftText" class="all_categories">
+                                                <div class="menuleftText-title">
+                                                    <div class="menuleftText">
+                                                        <span class="em-text-upercase">Danh mục sản phẩm</span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- /.menuleftText -->
+                                            <div class="menuleft">
+                                                <div id="menu-default" class="mega-menu em-menu-icon">
+                                                    <div class="megamenu-wrapper wrapper-5_4607">
+                                                        <div class="em_nav" id="toogle_menu_5_4607">
+                                                            <ul class="vnav em-menu-icon effect-menu em-menu-long">
+                                                                @{
+                                                                    foreach (loaihang item in (List<loaihang>)ViewData["lh"])
+                                                                    {
+                                                                        <li class="menu-item-link menu-item-depth-0 fa fa-bars  menu-item-parent">
+                                                                            <a class="em-menu-link" href="#"> <span> @item.tenloai </span> </a>
+                                                                            <ul class="menu-container">
+                                                                                <li class="menu-item-hbox menu-item-depth-1 col-menu menu_col5  fix-top menu-item-parent" style="">
+                                                                                    <ul class="menu-container">
+                                                                                        <li class="menu-item-vbox menu-item-depth-2 col-sm-24 alpha menu-item-parent" style="">
+                                                                                            <ul class="menu-container">
+                                                                                                <li class="menu-item-text menu-item-depth-3  ">
+
+                                                                                                    <h4> @item.tenloai</h4>
+                                                                                                    <ul class="em-catalog-navigation vertical">
+                                                                                                        @{foreach (nhomhang a in (List<nhomhang>)ViewData["nhomhang"])
+                                                                                                            {
+                                                                                                                if (item.maloai == a.maloai)
+                                                                                                                {
+                                                                                                                    @*<li class="level0 nav-1 first">*@
+                                                                                                                    <li class="menu-item-link menu-item-depth-0 fa fa fa-mouse-pointer ">
+                                                                                                                        <a href=@Url.Action("Index/"+a.manhomhang,"Sanphamuser")> <span>@a.tennhomhang</span> </a>
+                                                                                                                    </li>
+                                                                                                                }
+
+                                                                                                            }
+
+                                                                                                        }
+
+
+                                                                                                    </ul>
+
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li><!-- /.menu-item-hbox -->
+                                                                            </ul>
+                                                                        </li><!-- /.menu-item-link -->
+
+                                                                    }
+                                                                }
+
+
+
+
+                                                            </ul><!-- /.vnav -->
+                                                        </div>
+                                                    </div><!-- /.megamenu-wrapper -->
+                                                </div>
+                                            </div><!-- /.menuleft -->
+                                        </div>
+                                    </div><!-- /.em-wrapper-area02 -->
+                                <!--Phần slide show-->
+                                    <div class="row">
+                                        <div class="col-sm-24">
+                                            <div class="em-wrapper-ads-10 em-line-01">
+                                                <div class="em-block-title">
+                                                    <h2><span>Blog</span></h2>
+                                                </div>
+                                                <div class="em-blog-style01">
+                                                    <div class="em-from-our-blog">
+                                                        <div class="em-blog-item em-effect-13">
+                                                            <div class="em-blog-content bkg-top">
+                                                                <a title="em-sample-title" class="img-banner-small" href="#"> <img alt="em_blog" class="img-responsive" src="~/Content/assetshome/images/blog/em_ads_07_1.jpg"> </a>
+                                                                <div class="em-blog-time">
+                                                                    <p class="em-blog-date">21</p>
+                                                                    <p class="em-blog-month">Jul</p>
+                                                                </div>
+                                                                <div class="hov">&nbsp;</div>
+                                                            </div>
+                                                            <div class="em-box bkg-bottom">
+                                                                <h4 class="em-blog-title"><a href="#">Pineapples, Mermaids and…</a></h4>
+                                                                <p class="em-blog-des">Boutique festival Secret Garden went down in Sydney’s&nbsp;Camden over the weekend,…</p>
+                                                                <p>
+                                                                    <a class="link-more" href="#">Read more</a>
+                                                                </p>
+                                                            </div>
+                                                        </div><!-- /.em-blog-item -->
+                                                        <div class="em-blog-item em-effect-13">
+                                                            <div class="em-blog-content bkg-top">
+                                                                <a title="em-sample-title" class="img-banner-small" href="http://demo.emthemes.com/everything/index.php/blog/11-emerging-jewelry-designers-you-need-to-know.html"> <img alt="em_blog" class="img-responsive" src="~/Content/assetshome/images/blog/em_ads_08.jpg"> </a>
+                                                                <div class="em-blog-time">
+                                                                    <p class="em-blog-date">21</p>
+                                                                    <p class="em-blog-month">Jul</p>
+                                                                </div>
+                                                                <div class="hov">&nbsp;</div>
+                                                            </div>
+                                                            <div class="em-box bkg-bottom">
+                                                                <h4 class="em-blog-title"><a href="http://demo.emthemes.com/everything/index.php/blog/11-emerging-jewelry-designers-you-need-to-know.html">11 Emerging Jewelry…</a></h4>
+                                                                <p class="em-blog-des">Jewelry&nbsp;designers are a little like the stepchild of the fashion industry.…</p>
+                                                                <p>
+                                                                    <a class="link-more" href="http://demo.emthemes.com/everything/index.php/blog/11-emerging-jewelry-designers-you-need-to-know.html">Read more</a>
+                                                                </p>
+                                                            </div>
+                                                        </div><!-- /.em-blog-item -->
+                                                    </div>
+                                                </div><!-- /.em-blog-style01 -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- /.em-sidebar -->
+
+
+                            </div><!-- /.em-main-container -->
+                    </div><!-- /.em-inner-main -->
+                </div><!-- /.container -->
+            </div><!-- /.em-wrapper-main -->
+
+            <div class="em-wrapper-footer">
+                <div class="em-footer-style09">
+                    <div class="em-footer-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-24">
+                                    <div class="em-footer-info">
+                                        <div class="row">
+                                            <div class="col-sm-4 first text-center">
+                                                <div class="em-block-title" data-collapse-target="#collapse01">
+                                                    <p class="h4 em-text-upercase">
+                                                        <span>Ngân hàng điện tử</span>
+                                                    </p>
+                                                </div>
+                                                <ul id="collapse01" class="em-links em-block-content block-info">
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Vietinbank</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Vietcombank</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Lienviet</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Bddbank</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- /.col-sm-4 -->
+                                            <div class="col-sm-4 text-center">
+                                                <div class="em-block-title" data-collapse-target="#collapse02">
+                                                    <p class="h4 em-text-upercase">
+                                                        <span>Giám đốc</span>
+                                                    </p>
+                                                </div>
+                                                <ul id="collapse02" class="em-links em-block-content block-info">
+
+                                                    <li class="em-links-item">
+                                                        <p>Bùi Đình Đạt</p>
+                                                    </li>
+                                                    <li class="em-links-items">
+                                                        <p>Nguyễn Thị Huê</p>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div><!-- /.col-sm-4 -->
+                                            <div class="col-sm-4 text-center">
+                                                <div class="em-block-title" data-collapse-target="#collapse03">
+                                                    <p class="h4 em-text-upercase">
+                                                        <span>Cửa hàng chính</span>
+                                                    </p>
+                                                </div>
+                                                <ul id="collapse03" class="em-links em-block-content block-info">
+                                                    <li class="em-links-item">
+                                                        <p>Chúng tôi tin chất lượng là dịch vụ tốt nhất.</p>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <p>Công ty cổ phần BDD.</p>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <p> Văn trì - Từ Liêm - Hà Nội.</p>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <p>Phone: 0965928820</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- /.col-sm-4 -->
+                                            <div class="col-sm-4 text-center">
+                                                <div class="em-block-title" data-collapse-target="#collapse04">
+                                                    <p class="h4 em-text-upercase">
+                                                        <span>Cửa hàng phụ nữ</span>
+                                                    </p>
+                                                </div>
+                                                <ul id="collapse04" class="em-links em-block-content block-info">
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Quần jean</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Váy đầm</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Khác</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Giày dép</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- /.col-sm-4 -->
+                                            <div class="col-sm-4 text-center">
+                                                <div class="em-block-title" data-collapse-target="#collapse05">
+                                                    <p class="h4 em-text-upercase">
+                                                        <span>Trợ giúp</span>
+                                                    </p>
+                                                </div>
+                                                <ul id="collapse05" class="em-links em-block-content block-info">
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>F.A.Q.</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Mua sắm</span></a>
+                                                    </li>
+
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Bảo mật</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- /.col-sm-4 -->
+                                            <div class="col-sm-4 last text-center">
+                                                <div class="em-block-title" data-collapse-target="#collapse06">
+                                                    <p class="h4 em-text-upercase">
+                                                        <span>Ứng dụng</span>
+                                                    </p>
+                                                </div>
+                                                <ul id="collapse06" class="em-links em-block-content block-info">
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Ios</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Window</span></a>
+                                                    </li>
+                                                    <li class="em-links-item">
+                                                        <a title="em-sample-title" href="#"><span>Android</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- /.col-sm-4 -->
+                                        </div><!-- /.row -->
+                                        <div class="em-footer-info-bottom">
+                                            <div class="row">
+                                                <div class="col-sm-15 first">
+                                                    <div class="em-wrapper-newsletter">
+                                                        <div class="em-block-title" data-collapse-target="#collapse07">
+                                                            <p class="h4 em-text-upercase">
+                                                                <span>Đăng ký để nhận tin</span>
+                                                            </p>
+                                                        </div>
+                                                        <div id="collapse07" class="em-block-content em-newsletter">
+                                                            <div class="em-newsletter-style05">
+                                                                <div class="block block-subscribe">
+                                                                    <form method="post" id="em-newsletter-validate-detail-style03">
+                                                                        <div class="block-content">
+                                                                            <div class="form-subscribe-content">
+                                                                                <div class="input-box">
+                                                                                    <input type="text" name="email" id="em-newsletter-style03" title="Đăng ký nhận bản tin của chúng tôi" class="input-text required-entry validate-email" placeholder="Đăng ký email của bạn..." />
+                                                                                </div>
+                                                                                <div class="actions">
+                                                                                    <button type="submit" title="Đăng ký" class="button">
+                                                                                        <span><span>Đăng ký</span></span>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div><!-- /#collapse07 -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-9 last">
+                                                    <div class="em-wrapper-social f-right">
+                                                        <div class="em-block-title" data-collapse-target="#collapse08">
+                                                            <p class="h4 em-text-upercase">
+                                                                <span>Theo dõi chúng tôi</span>
+                                                            </p>
+                                                        </div>
+                                                        <div id="collapse08" class="em-block-content">
+                                                            <p class="em-social">
+                                                                <a class="em-social-icon em-facebook f-left" title="em-sample-title" href="#"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-twitter f-left" title="em-sample-title" href="#"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-pinterest  f-left" title="em-sample-title" href="#"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-google f-left" title="em-sample-title" href="#"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-rss  f-left" title="em-sample-title" href="#"><span class="fa fa-fw"></span></a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.em-footer-info-bottom -->
+                                    </div><!-- /.em-footer-info -->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.em-footer-top -->
+                    <div class="em-footer-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-24">
+                                    <div class="em-area-footer02">
+                                        <div class="em-payment f-right">
+                                            <a class="em-payment-icon em-visa" title="em-sample-title" href="#">visa</a> <a class="em-payment-icon em-master" title="em-sample-title" href="#">master</a> <a class="em-payment-icon em-express " title="em-sample-title" href="#">express</a><a class="em-payment-icon em-paypal" title="em-sample-title" href="#">paypal</a> <a class="em-payment-icon em-other " title="em-sample-title" href="#">other</a>
+                                        </div>
+                                    </div>
+                                    <div class="em-footer-address">
+                                        <address class="f-left">&copy; Đại học công nghiệp Hà Nội <span> http://www.haui.com.vn </span></address>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.em-footer-bottom -->
+                </div><!-- /.em-footer-style09 -->
+            </div><!-- /.em-wrapper-footer -->
+
+            <p id="back-top" style="display: none;"><a title="Top" href="#top">Hàng đầu</a></p>
+
+
+
+        </div><!-- /.page -->
+    </div><!-- /.wrapper -->
+    @RenderSection("scripts", required: false)
+    </div>
+</body>
+
+</html>
